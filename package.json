@@ -1,0 +1,19 @@
+{
+  "name": "fraud-anomly-detection",
+  "version": "1.0.0",
+  "description": "",
+  "license": "ISC",
+  "author": "Ishan Meduri",
+  "type": "module",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "node server.js"
+  },
+  "dependencies": {
+    "dotenv": "^17.4.2",
+    "express": "^5.2.1",
+    "mongoose": "^9.7.3",
+    "uuid": "^14.0.1"
+  }
+}
