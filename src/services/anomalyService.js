@@ -44,4 +44,4 @@ function calculateAnomalyScore(zScore, noveltyRisk, timeAnomalyRisk) {
   };
 }
 
-export { calculateAnomalyScore };
+export { calculateAnomalyScore,checkNoveltyRisk,calculateZScore,checkTimeAnomalyRisk };
