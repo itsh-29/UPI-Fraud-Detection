@@ -12,7 +12,9 @@ const userSchema  = new Schema(
             afternoon: { type: Number, default: 0 },
             evening: { type: Number, default: 0 },
             lateNight: { type: Number, default: 0 }
-        }
+        },
+        transactionCount :{type:Number,default:0},
+        m2:{type:Number,default:0}
     }
 )
 
