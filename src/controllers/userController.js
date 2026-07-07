@@ -6,4 +6,14 @@ async function createUser(req, res) {
   res.status(201).json(user);
 }
 
-export{createUser};
+
+async function getUser(req,res){
+  const {id} = req.params;
+  const user = await User.findById(id);
+  if(user === null){
+    return res.status(404).json({error:"User is not found"});
+  }
+  res.status(200).json(user);
+
+}
+export{createUser,getUser};

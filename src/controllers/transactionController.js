@@ -10,6 +10,7 @@ import { checkTimeAnomalyRisk } from "../services/anomalyService.js";
 
 import { getTimeBucket } from "../utils/timeBucket.js";
 
+import{updateUserStats} from "../services/statsService.js"
 
 async function createTransaction(req,res){
     const{senderId,receiverId,amount,timestamp,note}=req.body;
@@ -26,7 +27,9 @@ async function createTransaction(req,res){
     const hasHistory = sender.stdDevTransactionAmount !== 0;
     const bucket = getTimeBucket(timestamp);
 
-    const bucketPercentage = sender.timeBucketDistribution[bucket];
+    const bucketCount = sender.timeBucketCount[bucket+"Count"];
+
+    const bucketPercentage = (sender.transactionCount === 0 ? 0 : (bucketCount/sender.transactionCount)); 
 
     const zscore = calculateZScore(amount,sender.avgTransactionAmount,sender.stdDevTransactionAmount);
     const noveltyRisk = checkNoveltyRisk(amount,sender.avgTransactionAmount,relationshipExists);
@@ -35,6 +38,33 @@ async function createTransaction(req,res){
     const anomalyScore =calculateAnomalyScore(zscore,noveltyRisk,timeAnomalyRisk)
 
     const transaction = await Transaction.create({senderId,receiverId,amount,timestamp,note});
+
+    const stats = updateUserStats(sender.avgTransactionAmount,sender.transactionCount,sender.m2,amount);
+
+    const updateUser = await User.findByIdAndUpdate(senderId,{
+            avgTransactionAmount: stats.newAvg,
+            stdDevTransactionAmount:stats.newStd,
+            m2:stats.newM2,
+            transactionCount:stats.newCount,
+            $inc: { [`timeBucketCount.${bucket}Count`]: 1 } 
+    },{new:true });
+
+    if (relationshipExists) {
+        await ReceiverRelationship.findByIdAndUpdate(
+            relationship._id,
+            {
+            $inc: { transactionCount: 1 },
+            lastTransactionTimestamp: timestamp,
+            }
+        );
+    } else {
+        await ReceiverRelationship.create({
+            userId: senderId,
+            receiverId: receiverId,
+            transactionCount: 1,
+            lastTransactionTimestamp: timestamp,
+        });
+    }
 
     res.status(201).json({
         transaction: transaction,
