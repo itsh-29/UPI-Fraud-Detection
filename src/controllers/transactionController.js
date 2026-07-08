@@ -72,4 +72,10 @@ async function createTransaction(req,res){
     });
 }
 
-export{createTransaction};
+async function getAllTransactions(req, res) {
+    const Transactions = await Transaction.find({});
+    res.status(200).json(Transactions);
+
+}
+
+export{createTransaction,getAllTransactions};

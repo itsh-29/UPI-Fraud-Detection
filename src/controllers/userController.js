@@ -16,4 +16,6 @@ async function getUser(req,res){
   res.status(200).json(user);
 
 }
+
+
 export{createUser,getUser};
