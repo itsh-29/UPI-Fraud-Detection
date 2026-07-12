@@ -10,6 +10,19 @@ function generateGuassianAmount(mean,stdDev){
     return Math.max(10,Math.round(amount));  
 }
 
+function generateFraudAmount(avg, stdDev) {
+  if(stdDev === 0 )return null;
+  const randZscore = Math.floor(Math.random()*6)+5; 
+  const amount = (randZscore*stdDev)+ avg;  
+  return amount;
+}
+
+function getRandomLateNightHour(){
+    const lateNightHours  = [21,22,23,0,1,2,3,4];
+    const randomIndex = Math.floor(Math.random() *lateNightHours.length);
+    return lateNightHours[randomIndex];
+}
+
 
 async function createUser(){
     const userNames = [
@@ -67,3 +80,4 @@ async function seed() {
 
 seed();
 
+export{generateFraudAmount,generateTransactionsForUser,generateTransactionsForUser,createUser,getRandomLateNightHour}
