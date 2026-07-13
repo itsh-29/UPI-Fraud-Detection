@@ -78,6 +78,4 @@ async function seed() {
   }
 }
 
-seed();
-
-export{generateFraudAmount,generateTransactionsForUser,generateTransactionsForUser,createUser,getRandomLateNightHour}
+export{generateFraudAmount,generateTransactionsForUser,createUser,getRandomLateNightHour,generateGuassianAmount,seed}

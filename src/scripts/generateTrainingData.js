@@ -1,9 +1,11 @@
-import { User } from "../models/User";
-import { calculateZScore, checkNoveltyRisk, checkTimeAnomalyRisk } from "../services/anomalyService";
-import { getTimeBucket } from "../utils/timeBucket";
-import { generateFraudAmount,getRandomLateNightHour } from "./seed";
+import { User } from "../models/User.js";
+import { calculateZScore, checkNoveltyRisk, checkTimeAnomalyRisk } from "../services/anomalyService.js";
+import { getTimeBucket } from "../utils/timeBucket.js";
+import { generateFraudAmount,generateGuassianAmount,getRandomLateNightHour } from "./seed.js";
+import fs from "fs";
+import { connectDB } from "../config/db.js";
 
-async function generateFraudTransactionForUser(sender,allUserIds,senderIndex){
+function generateFraudTransactionForUser(sender,allUserIds,senderIndex){
   const{avgTransactionAmount,stdDevTransactionAmount,timeBucketCount,transactionCount} = sender;
   // 1. get a fraud amount using generateFraudAmount(avg, stdDev)
   const fraudAmount = generateFraudAmount(avgTransactionAmount,stdDevTransactionAmount);
@@ -65,17 +67,18 @@ function generateNormalTrainingExample(sender,regularReceivers,allUserIds,sender
     return{
 
         features:{zscore,noveltyRisk,timeAnomalyRisk,amount:normalAmount},
-        label :1,
+        label :0,
 
     }
 }
-async function generateTrainingDataset(sender, allUserIds, senderIndex){
+async function generateTrainingDataset(){
+    await connectDB();
     const allUsers = await User.find({});
     const allUserIds = allUsers.map(u=>u._id);
     const dataset =[];
     for(let senderIndex=0;senderIndex<allUsers.length;senderIndex++){
         const sender =allUsers[senderIndex];
-        const regularReceivers = allUserIds.filter((id,idx)=>idx != senderIndex).slice(0,3);
+        const regularReceivers = allUserIds.filter((id,idx)=>idx !== senderIndex).slice(0,3);
 
         const normalCount = Math.floor(Math.random()*20)+10;
         const fraudCount  = Math.floor(Math.random()*4)+2;
@@ -84,14 +87,21 @@ async function generateTrainingDataset(sender, allUserIds, senderIndex){
             dataset.push(example);
         } 
         for(let i=0;i<fraudCount;i++){
-            const example = generateFraudTransactionForUser(sender,regularReceivers,allUserIds,senderIndex);
+            const example = generateFraudTransactionForUser(sender,allUserIds,senderIndex);
             if(example !== null){
                 dataset.push(example);
             }
         }
     }
+
+    const datasetJson = JSON.stringify(dataset,null,2);
+    fs.writeFileSync("trainingData.json",datasetJson); 
+    console.log(`Generated ${dataset.length} training examples.`);
+
     return dataset;
 }
 
+generateTrainingDataset();
 
-export{generateFraudTransactionForUser,generateNormalTrainingExample};
+
+export{generateFraudTransactionForUser,generateNormalTrainingExample,generateTrainingDataset};

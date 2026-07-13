@@ -1,0 +1,4988 @@
+[
+  {
+    "features": {
+      "zscore": null,
+      "noveltyRisk": false,
+      "timeAnomalyRisk": false,
+      "amount": 10
+    },
+    "label": 0
+  },
+  {
+    "features": {
+      "zscore": null,
+      "noveltyRisk": false,
+      "timeAnomalyRisk": false,
+      "amount": 10
+    },
+    "label": 0
+  },
+  {
+    "features": {
+      "zscore": null,
+      "noveltyRisk": false,
+      "timeAnomalyRisk": false,
+      "amount": 10
+    },
+    "label": 0
+  },
+  {
+    "features": {
+      "zscore": null,
+      "noveltyRisk": false,
+      "timeAnomalyRisk": false,
+      "amount": 10
+    },
+    "label": 0
+  },
+  {
+    "features": {
+      "zscore": null,
+      "noveltyRisk": false,
+      "timeAnomalyRisk": false,
+      "amount": 10
+    },
+    "label": 0
+  },
+  {
+    "features": {
+      "zscore": null,
+      "noveltyRisk": false,
+      "timeAnomalyRisk": false,
+      "amount": 10
+    },
+    "label": 0
+  },
+  {
+    "features": {
+      "zscore": null,
+      "noveltyRisk": false,
+      "timeAnomalyRisk": false,
+      "amount": 10
+    },
+    "label": 0
+  },
+  {
+    "features": {
+      "zscore": null,
+      "noveltyRisk": false,
+      "timeAnomalyRisk": false,
+      "amount": 10
+    },
+    "label": 0
+  },
+  {
+    "features": {
+      "zscore": null,
+      "noveltyRisk": false,
+      "timeAnomalyRisk": false,
+      "amount": 10
+    },
+    "label": 0
+  },
+  {
+    "features": {
+      "zscore": null,
+      "noveltyRisk": false,
+      "timeAnomalyRisk": false,
+      "amount": 10
+    },
+    "label": 0
+  },
+  {
+    "features": {
+      "zscore": null,
+      "noveltyRisk": false,
+      "timeAnomalyRisk": false,
+      "amount": 10
+    },
+    "label": 0
+  },
+  {
+    "features": {
+      "zscore": null,
+      "noveltyRisk": false,
+      "timeAnomalyRisk": false,
+      "amount": 10
+    },
+    "label": 0
+  },
+  {
+    "features": {
+      "zscore": null,
+      "noveltyRisk": false,
+      "timeAnomalyRisk": false,
+      "amount": 10
+    },
+    "label": 0
+  },
+  {
+    "features": {
+      "zscore": null,
+      "noveltyRisk": false,
+      "timeAnomalyRisk": false,
+      "amount": 10
+    },
+    "label": 0
+  },
+  {
+    "features": {
+      "zscore": null,
+      "noveltyRisk": false,
+      "timeAnomalyRisk": false,
+      "amount": 10
+    },
+    "label": 0
+  },
+  {
+    "features": {
+      "zscore": null,
+      "noveltyRisk": false,
+      "timeAnomalyRisk": false,
+      "amount": 10
+    },
+    "label": 0
+  },
+  {
+    "features": {
+      "zscore": null,
+      "noveltyRisk": false,
+      "timeAnomalyRisk": false,
+      "amount": 10
+    },
+    "label": 0
+  },
+  {
+    "features": {
+      "zscore": null,
+      "noveltyRisk": false,
+      "timeAnomalyRisk": false,
+      "amount": 10
+    },
+    "label": 0
+  },
+  {
+    "features": {
+      "zscore": null,
+      "noveltyRisk": false,
+      "timeAnomalyRisk": false,
+      "amount": 10
+    },
+    "label": 0
+  },
+  {
+    "features": {
+      "zscore": null,
+      "noveltyRisk": false,
+      "timeAnomalyRisk": false,
+      "amount": 10
+    },
+    "label": 0
+  },
+  {
+    "features": {
+      "zscore": null,
+      "noveltyRisk": false,
+      "timeAnomalyRisk": false,
+      "amount": 10
+    },
+    "label": 0
+  },
+  {
+    "features": {
+      "zscore": null,
+      "noveltyRisk": false,
+      "timeAnomalyRisk": false,
+      "amount": 10
+    },
+    "label": 0
+  },
+  {
+    "features": {
+      "zscore": null,
+      "noveltyRisk": false,
+      "timeAnomalyRisk": false,
+      "amount": 10
+    },
+    "label": 0
+  },
+  {
+    "features": {
+      "zscore": null,
+      "noveltyRisk": false,
+      "timeAnomalyRisk": false,
+      "amount": 500
+    },
+    "label": 0
+  },
+  {
+    "features": {
+      "zscore": null,
+      "noveltyRisk": false,
+      "timeAnomalyRisk": false,
+      "amount": 500
+    },
+    "label": 0
+  },
+  {
+    "features": {
+      "zscore": null,
+      "noveltyRisk": false,
+      "timeAnomalyRisk": false,
+      "amount": 500
+    },
+    "label": 0
+  },
+  {
+    "features": {
+      "zscore": null,
+      "noveltyRisk": false,
+      "timeAnomalyRisk": false,
+      "amount": 500
+    },
+    "label": 0
+  },
+  {
+    "features": {
+      "zscore": null,
+      "noveltyRisk": false,
+      "timeAnomalyRisk": false,
+      "amount": 500
+    },
+    "label": 0
+  },
+  {
+    "features": {
+      "zscore": null,
+      "noveltyRisk": false,
+      "timeAnomalyRisk": false,
+      "amount": 500
+    },
+    "label": 0
+  },
+  {
+    "features": {
+      "zscore": null,
+      "noveltyRisk": false,
+      "timeAnomalyRisk": false,
+      "amount": 500
+    },
+    "label": 0
+  },
+  {
+    "features": {
+      "zscore": null,
+      "noveltyRisk": false,
+      "timeAnomalyRisk": false,
+      "amount": 500
+    },
+    "label": 0
+  },
+  {
+    "features": {
+      "zscore": null,
+      "noveltyRisk": false,
+      "timeAnomalyRisk": false,
+      "amount": 500
+    },
+    "label": 0
+  },
+  {
+    "features": {
+      "zscore": null,
+      "noveltyRisk": false,
+      "timeAnomalyRisk": false,
+      "amount": 500
+    },
+    "label": 0
+  },
+  {
+    "features": {
+      "zscore": null,
+      "noveltyRisk": false,
+      "timeAnomalyRisk": false,
+      "amount": 500
+    },
+    "label": 0
+  },
+  {
+    "features": {
+      "zscore": null,
+      "noveltyRisk": false,
+      "timeAnomalyRisk": false,
+      "amount": 500
+    },
+    "label": 0
+  },
+  {
+    "features": {
+      "zscore": null,
+      "noveltyRisk": false,
+      "timeAnomalyRisk": false,
+      "amount": 500
+    },
+    "label": 0
+  },
+  {
+    "features": {
+      "zscore": null,
+      "noveltyRisk": false,
+      "timeAnomalyRisk": false,
+      "amount": 500
+    },
+    "label": 0
+  },
+  {
+    "features": {
+      "zscore": null,
+      "noveltyRisk": false,
+      "timeAnomalyRisk": false,
+      "amount": 500
+    },
+    "label": 0
+  },
+  {
+    "features": {
+      "zscore": null,
+      "noveltyRisk": false,
+      "timeAnomalyRisk": false,
+      "amount": 500
+    },
+    "label": 0
+  },
+  {
+    "features": {
+      "zscore": null,
+      "noveltyRisk": false,
+      "timeAnomalyRisk": false,
+      "amount": 500
+    },
+    "label": 0
+  },
+  {
+    "features": {
+      "zscore": null,
+      "noveltyRisk": false,
+      "timeAnomalyRisk": false,
+      "amount": 500
+    },
+    "label": 0
+  },
+  {
+    "features": {
+      "zscore": null,
+      "noveltyRisk": false,
+      "timeAnomalyRisk": false,
+      "amount": 500
+    },
+    "label": 0
+  },
+  {
+    "features": {
+      "zscore": null,
+      "noveltyRisk": false,
+      "timeAnomalyRisk": false,
+      "amount": 500
+    },
+    "label": 0
+  },
+  {
+    "features": {
+      "zscore": null,
+      "noveltyRisk": false,
+      "timeAnomalyRisk": false,
+      "amount": 500
+    },
+    "label": 0
+  },
+  {
+    "features": {
+      "zscore": null,
+      "noveltyRisk": false,
+      "timeAnomalyRisk": false,
+      "amount": 500
+    },
+    "label": 0
+  },
+  {
+    "features": {
+      "zscore": null,
+      "noveltyRisk": false,
+      "timeAnomalyRisk": false,
+      "amount": 500
+    },
+    "label": 0
+  },
+  {
+    "features": {
+      "zscore": null,
+      "noveltyRisk": false,
+      "timeAnomalyRisk": false,
+      "amount": 500
+    },
+    "label": 0
+  },
+  {
+    "features": {
+      "zscore": -0.8342076542496868,
+      "noveltyRisk": false,
+      "timeAnomalyRisk": false,
+      "amount": 1225
+    },
+    "label": 0
+  },
+  {
+    "features": {
+      "zscore": 1.301066932738624,
+      "noveltyRisk": false,
+      "timeAnomalyRisk": false,
+      "amount": 2201
+    },
+    "label": 0
+  },
+  {
+    "features": {
+      "zscore": 0.8110039127740937,
+      "noveltyRisk": false,
+      "timeAnomalyRisk": false,
+      "amount": 1977
+    },
+    "label": 0
+  },
+  {
+    "features": {
+      "zscore": 0.22905407656621388,
+      "noveltyRisk": false,
+      "timeAnomalyRisk": false,
+      "amount": 1711
+    },
+    "label": 0
+  },
+  {
+    "features": {
+      "zscore": -1.2258205139534855,
+      "noveltyRisk": false,
+      "timeAnomalyRisk": false,
+      "amount": 1046
+    },
+    "label": 0
+  },
+  {
+    "features": {
+      "zscore": 0.301250860757417,
+      "noveltyRisk": false,
+      "timeAnomalyRisk": false,
+      "amount": 1744
+    },
+    "label": 0
+  },
+  {
+    "features": {
+      "zscore": -0.5410449548066195,
+      "noveltyRisk": false,
+      "timeAnomalyRisk": false,
+      "amount": 1359
+    },
+    "label": 0
+  },
+  {
+    "features": {
+      "zscore": -0.03566746546819758,
+      "noveltyRisk": false,
+      "timeAnomalyRisk": false,
+      "amount": 1590
+    },
+    "label": 0
+  },
+  {
+    "features": {
+      "zscore": 0.5550334960961917,
+      "noveltyRisk": false,
+      "timeAnomalyRisk": false,
+      "amount": 1860
+    },
+    "label": 0
+  },
+  {
+    "features": {
+      "zscore": -0.050981934842089155,
+      "noveltyRisk": false,
+      "timeAnomalyRisk": false,
+      "amount": 1583
+    },
+    "label": 0
+  },
+  {
+    "features": {
+      "zscore": 1.7079942618163144,
+      "noveltyRisk": false,
+      "timeAnomalyRisk": false,
+      "amount": 2387
+    },
+    "label": 0
+  },
+  {
+    "features": {
+      "zscore": 0.38876211432251173,
+      "noveltyRisk": false,
+      "timeAnomalyRisk": false,
+      "amount": 1784
+    },
+    "label": 0
+  },
+  {
+    "features": {
+      "zscore": -0.317891258215628,
+      "noveltyRisk": false,
+      "timeAnomalyRisk": false,
+      "amount": 1461
+    },
+    "label": 0
+  },
+  {
+    "features": {
+      "zscore": -0.5476082988240016,
+      "noveltyRisk": false,
+      "timeAnomalyRisk": false,
+      "amount": 1356
+    },
+    "label": 0
+  },
+  {
+    "features": {
+      "zscore": -0.5126037973979637,
+      "noveltyRisk": false,
+      "timeAnomalyRisk": false,
+      "amount": 1372
+    },
+    "label": 0
+  },
+  {
+    "features": {
+      "zscore": 0.37344764494862015,
+      "noveltyRisk": false,
+      "timeAnomalyRisk": false,
+      "amount": 1777
+    },
+    "label": 0
+  },
+  {
+    "features": {
+      "zscore": -0.20193884724187752,
+      "noveltyRisk": false,
+      "timeAnomalyRisk": false,
+      "amount": 1514
+    },
+    "label": 0
+  },
+  {
+    "features": {
+      "zscore": 2.213371751154736,
+      "noveltyRisk": false,
+      "timeAnomalyRisk": false,
+      "amount": 2618
+    },
+    "label": 0
+  },
+  {
+    "features": {
+      "zscore": 0.25093188995748755,
+      "noveltyRisk": false,
+      "timeAnomalyRisk": false,
+      "amount": 1721
+    },
+    "label": 0
+  },
+  {
+    "features": {
+      "zscore": -0.4469703572241427,
+      "noveltyRisk": false,
+      "timeAnomalyRisk": false,
+      "amount": 1402
+    },
+    "label": 0
+  },
+  {
+    "features": {
+      "zscore": 0.15248172969675602,
+      "noveltyRisk": false,
+      "timeAnomalyRisk": false,
+      "amount": 1676
+    },
+    "label": 0
+  },
+  {
+    "features": {
+      "zscore": 1.7561254512771165,
+      "noveltyRisk": false,
+      "timeAnomalyRisk": false,
+      "amount": 2409
+    },
+    "label": 0
+  },
+  {
+    "features": {
+      "zscore": 0.6053524668961211,
+      "noveltyRisk": false,
+      "timeAnomalyRisk": false,
+      "amount": 1883
+    },
+    "label": 0
+  },
+  {
+    "features": {
+      "zscore": 0.11310166559246342,
+      "noveltyRisk": false,
+      "timeAnomalyRisk": false,
+      "amount": 1658
+    },
+    "label": 0
+  },
+  {
+    "features": {
+      "zscore": -0.21068997259838698,
+      "noveltyRisk": false,
+      "timeAnomalyRisk": false,
+      "amount": 1510
+    },
+    "label": 0
+  },
+  {
+    "features": {
+      "zscore": 0.016839286670859238,
+      "noveltyRisk": false,
+      "timeAnomalyRisk": false,
+      "amount": 1614
+    },
+    "label": 0
+  },
+  {
+    "features": {
+      "zscore": 9,
+      "noveltyRisk": true,
+      "timeAnomalyRisk": false,
+      "amount": 5720.059665410722
+    },
+    "label": 1
+  },
+  {
+    "features": {
+      "zscore": 8.000000000000002,
+      "noveltyRisk": true,
+      "timeAnomalyRisk": false,
+      "amount": 5262.975594843201
+    },
+    "label": 1
+  },
+  {
+    "features": {
+      "zscore": 10,
+      "noveltyRisk": true,
+      "timeAnomalyRisk": false,
+      "amount": 6177.143735978243
+    },
+    "label": 1
+  },
+  {
+    "features": {
+      "zscore": 5,
+      "noveltyRisk": false,
+      "timeAnomalyRisk": false,
+      "amount": 3891.7233831406365
+    },
+    "label": 1
+  },
+  {
+    "features": {
+      "zscore": 1.1198672759165502,
+      "noveltyRisk": false,
+      "timeAnomalyRisk": false,
+      "amount": 2527
+    },
+    "label": 0
+  },
+  {
+    "features": {
+      "zscore": -0.7726755570237277,
+      "noveltyRisk": false,
+      "timeAnomalyRisk": false,
+      "amount": 1459
+    },
+    "label": 0
+  },
+  {
+    "features": {
+      "zscore": -1.1288563710883306,
+      "noveltyRisk": false,
+      "timeAnomalyRisk": false,
+      "amount": 1258
+    },
+    "label": 0
+  },
+  {
+    "features": {
+      "zscore": 1.5611061948324017,
+      "noveltyRisk": false,
+      "timeAnomalyRisk": false,
+      "amount": 2776
+    },
+    "label": 0
+  },
+  {
+    "features": {
+      "zscore": -0.6309120489383137,
+      "noveltyRisk": false,
+      "timeAnomalyRisk": false,
+      "amount": 1539
+    },
+    "label": 0
+  },
+  {
+    "features": {
+      "zscore": -0.9020347581516681,
+      "noveltyRisk": false,
+      "timeAnomalyRisk": false,
+      "amount": 1386
+    },
+    "label": 0
+  },
+  {
+    "features": {
+      "zscore": 0.5988863837026535,
+      "noveltyRisk": false,
+      "timeAnomalyRisk": false,
+      "amount": 2233
+    },
+    "label": 0
+  },
+  {
+    "features": {
+      "zscore": 1.2013812930656633,
+      "noveltyRisk": false,
+      "timeAnomalyRisk": false,
+      "amount": 2573
+    },
+    "label": 0
+  },
+  {
+    "features": {
+      "zscore": -0.03904940268170986,
+      "noveltyRisk": false,
+      "timeAnomalyRisk": false,
+      "amount": 1873
+    },
+    "label": 0
+  },
+  {
+    "features": {
+      "zscore": 0.16650768404214056,
+      "noveltyRisk": false,
+      "timeAnomalyRisk": false,
+      "amount": 1989
+    },
+    "label": 0
+  },
+  {
+    "features": {
+      "zscore": -0.28181941027798146,
+      "noveltyRisk": false,
+      "timeAnomalyRisk": false,
+      "amount": 1736
+    },
+    "label": 0
+  },
+  {
+    "features": {
+      "zscore": 0.2799184905104718,
+      "noveltyRisk": false,
+      "timeAnomalyRisk": false,
+      "amount": 2053
+    },
+    "label": 0
+  },
+  {
+    "features": {
+      "zscore": -0.5104130670657117,
+      "noveltyRisk": false,
+      "timeAnomalyRisk": false,
+      "amount": 1607
+    },
+    "label": 0
+  },
+  {
+    "features": {
+      "zscore": -1.564779158450979,
+      "noveltyRisk": false,
+      "timeAnomalyRisk": false,
+      "amount": 1012
+    },
+    "label": 0
+  },
+  {
+    "features": {
+      "zscore": 1.3041598364275886,
+      "noveltyRisk": false,
+      "timeAnomalyRisk": false,
+      "amount": 2631
+    },
+    "label": 0
+  },
+  {
+    "features": {
+      "zscore": 2.1299322710251256,
+      "noveltyRisk": false,
+      "timeAnomalyRisk": false,
+      "amount": 3097
+    },
+    "label": 0
+  },
+  {
+    "features": {
+      "zscore": 0.9851919432354068,
+      "noveltyRisk": false,
+      "timeAnomalyRisk": false,
+      "amount": 2451
+    },
+    "label": 0
+  },
+  {
+    "features": {
+      "zscore": 1.5380696247685217,
+      "noveltyRisk": false,
+      "timeAnomalyRisk": false,
+      "amount": 2763
+    },
+    "label": 0
+  },
+  {
+    "features": {
+      "zscore": -0.131195682937229,
+      "noveltyRisk": false,
+      "timeAnomalyRisk": false,
+      "amount": 1821
+    },
+    "label": 0
+  },
+  {
+    "features": {
+      "zscore": 0.16650768404214056,
+      "noveltyRisk": false,
+      "timeAnomalyRisk": false,
+      "amount": 1989
+    },
+    "label": 0
+  },
+  {
+    "features": {
+      "zscore": 1.3661813712149573,
+      "noveltyRisk": false,
+      "timeAnomalyRisk": false,
+      "amount": 2666
+    },
+    "label": 0
+  },
+  {
+    "features": {
+      "zscore": 0.08499366689302747,
+      "noveltyRisk": false,
+      "timeAnomalyRisk": false,
+      "amount": 1943
+    },
+    "label": 0
+  },
+  {
+    "features": {
+      "zscore": -0.09752684976694316,
+      "noveltyRisk": false,
+      "timeAnomalyRisk": false,
+      "amount": 1840
+    },
+    "label": 0
+  },
+  {
+    "features": {
+      "zscore": 0.008795781297117392,
+      "noveltyRisk": false,
+      "timeAnomalyRisk": false,
+      "amount": 1900
+    },
+    "label": 0
+  },
+  {
+    "features": {
+      "zscore": 0.01942804440352345,
+      "noveltyRisk": false,
+      "timeAnomalyRisk": false,
+      "amount": 1906
+    },
+    "label": 0
+  },
+  {
+    "features": {
+      "zscore": 1.541613712470657,
+      "noveltyRisk": false,
+      "timeAnomalyRisk": false,
+      "amount": 2765
+    },
+    "label": 0
+  },
+  {
+    "features": {
+      "zscore": -0.3261205065546734,
+      "noveltyRisk": false,
+      "timeAnomalyRisk": false,
+      "amount": 1711
+    },
+    "label": 0
+  },
+  {
+    "features": {
+      "zscore": 0.23561739423377992,
+      "noveltyRisk": false,
+      "timeAnomalyRisk": false,
+      "amount": 2028
+    },
+    "label": 0
+  },
+  {
+    "features": {
+      "zscore": -1.0455703100881497,
+      "noveltyRisk": false,
+      "timeAnomalyRisk": false,
+      "amount": 1305
+    },
+    "label": 0
+  },
+  {
+    "features": {
+      "zscore": 9,
+      "noveltyRisk": true,
+      "timeAnomalyRisk": false,
+      "amount": 6973.91745034164
+    },
+    "label": 1
+  },
+  {
+    "features": {
+      "zscore": 8,
+      "noveltyRisk": true,
+      "timeAnomalyRisk": false,
+      "amount": 6409.597329596609
+    },
+    "label": 1
+  },
+  {
+    "features": {
+      "zscore": 0.24701285985586033,
+      "noveltyRisk": false,
+      "timeAnomalyRisk": false,
+      "amount": 1092
+    },
+    "label": 0
+  },
+  {
+    "features": {
+      "zscore": 1.6457893859402168,
+      "noveltyRisk": false,
+      "timeAnomalyRisk": false,
+      "amount": 1507
+    },
+    "label": 0
+  },
+  {
+    "features": {
+      "zscore": -0.7034810687123048,
+      "noveltyRisk": false,
+      "timeAnomalyRisk": false,
+      "amount": 810
+    },
+    "label": 0
+  },
+  {
+    "features": {
+      "zscore": -0.5046188637991071,
+      "noveltyRisk": false,
+      "timeAnomalyRisk": false,
+      "amount": 869
+    },
+    "label": 0
+  },
+  {
+    "features": {
+      "zscore": 1.3222169847255223,
+      "noveltyRisk": false,
+      "timeAnomalyRisk": false,
+      "amount": 1411
+    },
+    "label": 0
+  },
+  {
+    "features": {
+      "zscore": 0.4930627066128676,
+      "noveltyRisk": false,
+      "timeAnomalyRisk": false,
+      "amount": 1165
+    },
+    "label": 0
+  },
+  {
+    "features": {
+      "zscore": -0.3866497591895831,
+      "noveltyRisk": false,
+      "timeAnomalyRisk": false,
+      "amount": 904
+    },
+    "label": 0
+  },
+  {
+    "features": {
+      "zscore": -1.8157611978878172,
+      "noveltyRisk": false,
+      "timeAnomalyRisk": false,
+      "amount": 480
+    },
+    "label": 0
+  },
+  {
+    "features": {
+      "zscore": -0.35294430072971905,
+      "noveltyRisk": false,
+      "timeAnomalyRisk": false,
+      "amount": 914
+    },
+    "label": 0
+  },
+  {
+    "features": {
+      "zscore": -0.19115810012237183,
+      "noveltyRisk": false,
+      "timeAnomalyRisk": false,
+      "amount": 962
+    },
+    "label": 0
+  },
+  {
+    "features": {
+      "zscore": 0.597549627838446,
+      "noveltyRisk": false,
+      "timeAnomalyRisk": false,
+      "amount": 1196
+    },
+    "label": 0
+  },
+  {
+    "features": {
+      "zscore": -0.3360915714997871,
+      "noveltyRisk": false,
+      "timeAnomalyRisk": false,
+      "amount": 919
+    },
+    "label": 0
+  },
+  {
+    "features": {
+      "zscore": 0.9885329459728686,
+      "noveltyRisk": false,
+      "timeAnomalyRisk": false,
+      "amount": 1312
+    },
+    "label": 0
+  },
+  {
+    "features": {
+      "zscore": 0.8671932955173581,
+      "noveltyRisk": false,
+      "timeAnomalyRisk": false,
+      "amount": 1276
+    },
+    "label": 0
+  },
+  {
+    "features": {
+      "zscore": 0.5200270733807588,
+      "noveltyRisk": false,
+      "timeAnomalyRisk": false,
+      "amount": 1173
+    },
+    "label": 0
+  },
+  {
+    "features": {
+      "zscore": 1.0694260462765421,
+      "noveltyRisk": false,
+      "timeAnomalyRisk": false,
+      "amount": 1336
+    },
+    "label": 0
+  },
+  {
+    "features": {
+      "zscore": 1.5851195607124615,
+      "noveltyRisk": false,
+      "timeAnomalyRisk": false,
+      "amount": 1489
+    },
+    "label": 0
+  },
+  {
+    "features": {
+      "zscore": 0.3380175976974931,
+      "noveltyRisk": false,
+      "timeAnomalyRisk": false,
+      "amount": 1119
+    },
+    "label": 0
+  },
+  {
+    "features": {
+      "zscore": -1.1955807622263193,
+      "noveltyRisk": false,
+      "timeAnomalyRisk": false,
+      "amount": 664
+    },
+    "label": 0
+  },
+  {
+    "features": {
+      "zscore": 1.5177086437927336,
+      "noveltyRisk": false,
+      "timeAnomalyRisk": false,
+      "amount": 1469
+    },
+    "label": 0
+  },
+  {
+    "features": {
+      "zscore": 1.4165922684131416,
+      "noveltyRisk": false,
+      "timeAnomalyRisk": false,
+      "amount": 1439
+    },
+    "label": 0
+  },
+  {
+    "features": {
+      "zscore": 1.3087348013415767,
+      "noveltyRisk": false,
+      "timeAnomalyRisk": false,
+      "amount": 1407
+    },
+    "label": 0
+  },
+  {
+    "features": {
+      "zscore": 1.52107918963872,
+      "noveltyRisk": false,
+      "timeAnomalyRisk": false,
+      "amount": 1470
+    },
+    "label": 0
+  },
+  {
+    "features": {
+      "zscore": 0.2672361349317787,
+      "noveltyRisk": false,
+      "timeAnomalyRisk": false,
+      "amount": 1098
+    },
+    "label": 0
+  },
+  {
+    "features": {
+      "zscore": 0.8200056536735485,
+      "noveltyRisk": false,
+      "timeAnomalyRisk": false,
+      "amount": 1262
+    },
+    "label": 0
+  },
+  {
+    "features": {
+      "zscore": -2.7831078556859143,
+      "noveltyRisk": false,
+      "timeAnomalyRisk": false,
+      "amount": 193
+    },
+    "label": 0
+  },
+  {
+    "features": {
+      "zscore": 8,
+      "noveltyRisk": true,
+      "timeAnomalyRisk": false,
+      "amount": 3392.217084831019
+    },
+    "label": 1
+  },
+  {
+    "features": {
+      "zscore": 5.000000000000001,
+      "noveltyRisk": false,
+      "timeAnomalyRisk": false,
+      "amount": 2502.153535162244
+    },
+    "label": 1
+  },
+  {
+    "features": {
+      "zscore": 1.6196534157025828,
+      "noveltyRisk": false,
+      "timeAnomalyRisk": false,
+      "amount": 416
+    },
+    "label": 0
+  },
+  {
+    "features": {
+      "zscore": 1.6563655597918414,
+      "noveltyRisk": false,
+      "timeAnomalyRisk": false,
+      "amount": 419
+    },
+    "label": 0
+  },
+  {
+    "features": {
+      "zscore": -1.2071816791703247,
+      "noveltyRisk": false,
+      "timeAnomalyRisk": false,
+      "amount": 185
+    },
+    "label": 0
+  },
+  {
+    "features": {
+      "zscore": -0.277140695575775,
+      "noveltyRisk": false,
+      "timeAnomalyRisk": false,
+      "amount": 261
+    },
+    "label": 0
+  },
+  {
+    "features": {
+      "zscore": -1.2071816791703247,
+      "noveltyRisk": false,
+      "timeAnomalyRisk": false,
+      "amount": 185
+    },
+    "label": 0
+  },
+  {
+    "features": {
+      "zscore": -0.10581735649256849,
+      "noveltyRisk": false,
+      "timeAnomalyRisk": false,
+      "amount": 275
+    },
+    "label": 0
+  },
+  {
+    "features": {
+      "zscore": -2.5410562477467185,
+      "noveltyRisk": false,
+      "timeAnomalyRisk": false,
+      "amount": 76
+    },
+    "label": 0
+  },
+  {
+    "features": {
+      "zscore": 0.7752741016496365,
+      "noveltyRisk": false,
+      "timeAnomalyRisk": false,
+      "amount": 347
+    },
+    "label": 0
+  },
+  {
+    "features": {
+      "zscore": 0.7385619575603779,
+      "noveltyRisk": false,
+      "timeAnomalyRisk": false,
+      "amount": 344
+    },
+    "label": 0
+  },
+  {
+    "features": {
+      "zscore": -1.2683685859857556,
+      "noveltyRisk": false,
+      "timeAnomalyRisk": false,
+      "amount": 180
+    },
+    "label": 0
+  },
+  {
+    "features": {
+      "zscore": -1.5375909759736515,
+      "noveltyRisk": false,
+      "timeAnomalyRisk": false,
+      "amount": 158
+    },
+    "label": 0
+  },
+  {
+    "features": {
+      "zscore": 0.7140871948342056,
+      "noveltyRisk": false,
+      "timeAnomalyRisk": false,
+      "amount": 342
+    },
+    "label": 0
+  },
+  {
+    "features": {
+      "zscore": -0.1670042633079994,
+      "noveltyRisk": false,
+      "timeAnomalyRisk": false,
+      "amount": 270
+    },
+    "label": 0
+  },
+  {
+    "features": {
+      "zscore": 0.32249099121544783,
+      "noveltyRisk": false,
+      "timeAnomalyRisk": false,
+      "amount": 310
+    },
+    "label": 0
+  },
+  {
+    "features": {
+      "zscore": 6,
+      "noveltyRisk": false,
+      "timeAnomalyRisk": false,
+      "amount": 773.9480326984535
+    },
+    "label": 1
+  },
+  {
+    "features": {
+      "zscore": 7,
+      "noveltyRisk": true,
+      "timeAnomalyRisk": false,
+      "amount": 855.6648616776075
+    },
+    "label": 1
+  },
+  {
+    "features": {
+      "zscore": 10,
+      "noveltyRisk": true,
+      "timeAnomalyRisk": false,
+      "amount": 1100.8153486150695
+    },
+    "label": 1
+  },
+  {
+    "features": {
+      "zscore": 0.24632008044229553,
+      "noveltyRisk": false,
+      "timeAnomalyRisk": false,
+      "amount": 1191
+    },
+    "label": 0
+  },
+  {
+    "features": {
+      "zscore": 1.1855123987937743,
+      "noveltyRisk": false,
+      "timeAnomalyRisk": false,
+      "amount": 1605
+    },
+    "label": 0
+  },
+  {
+    "features": {
+      "zscore": 0.38016632870977685,
+      "noveltyRisk": false,
+      "timeAnomalyRisk": false,
+      "amount": 1250
+    },
+    "label": 0
+  },
+  {
+    "features": {
+      "zscore": 0.6206358594954212,
+      "noveltyRisk": false,
+      "timeAnomalyRisk": false,
+      "amount": 1356
+    },
+    "label": 0
+  },
+  {
+    "features": {
+      "zscore": -0.2504990444827621,
+      "noveltyRisk": false,
+      "timeAnomalyRisk": false,
+      "amount": 972
+    },
+    "label": 0
+  },
+  {
+    "features": {
+      "zscore": -0.7677353937198085,
+      "noveltyRisk": false,
+      "timeAnomalyRisk": false,
+      "amount": 744
+    },
+    "label": 0
+  },
+  {
+    "features": {
+      "zscore": -1.5934986881157946,
+      "noveltyRisk": false,
+      "timeAnomalyRisk": false,
+      "amount": 380
+    },
+    "label": 0
+  },
+  {
+    "features": {
+      "zscore": -0.5318030238923839,
+      "noveltyRisk": false,
+      "timeAnomalyRisk": false,
+      "amount": 848
+    },
+    "label": 0
+  },
+  {
+    "features": {
+      "zscore": -0.016835255134447343,
+      "noveltyRisk": false,
+      "timeAnomalyRisk": false,
+      "amount": 1075
+    },
+    "label": 0
+  },
+  {
+    "features": {
+      "zscore": 0.1669197636734507,
+      "noveltyRisk": false,
+      "timeAnomalyRisk": false,
+      "amount": 1156
+    },
+    "label": 0
+  },
+  {
+    "features": {
+      "zscore": 1.1628265940026759,
+      "noveltyRisk": false,
+      "timeAnomalyRisk": false,
+      "amount": 1595
+    },
+    "label": 0
+  },
+  {
+    "features": {
+      "zscore": 0.09432518834193543,
+      "noveltyRisk": false,
+      "timeAnomalyRisk": false,
+      "amount": 1124
+    },
+    "label": 0
+  },
+  {
+    "features": {
+      "zscore": 0.9450428680081301,
+      "noveltyRisk": false,
+      "timeAnomalyRisk": false,
+      "amount": 1499
+    },
+    "label": 0
+  },
+  {
+    "features": {
+      "zscore": -1.5367841761380485,
+      "noveltyRisk": false,
+      "timeAnomalyRisk": false,
+      "amount": 405
+    },
+    "label": 0
+  },
+  {
+    "features": {
+      "zscore": 2.4944833352401594,
+      "noveltyRisk": false,
+      "timeAnomalyRisk": false,
+      "amount": 2182
+    },
+    "label": 0
+  },
+  {
+    "features": {
+      "zscore": -0.5658317310790316,
+      "noveltyRisk": false,
+      "timeAnomalyRisk": false,
+      "amount": 833
+    },
+    "label": 0
+  },
+  {
+    "features": {
+      "zscore": 0.38470348966799656,
+      "noveltyRisk": false,
+      "timeAnomalyRisk": false,
+      "amount": 1252
+    },
+    "label": 0
+  },
+  {
+    "features": {
+      "zscore": 0.3234518167320305,
+      "noveltyRisk": false,
+      "timeAnomalyRisk": false,
+      "amount": 1225
+    },
+    "label": 0
+  },
+  {
+    "features": {
+      "zscore": -0.5930546968283499,
+      "noveltyRisk": false,
+      "timeAnomalyRisk": false,
+      "amount": 821
+    },
+    "label": 0
+  },
+  {
+    "features": {
+      "zscore": -0.6996779793465129,
+      "noveltyRisk": false,
+      "timeAnomalyRisk": false,
+      "amount": 774
+    },
+    "label": 0
+  },
+  {
+    "features": {
+      "zscore": -1.1193653679818356,
+      "noveltyRisk": false,
+      "timeAnomalyRisk": false,
+      "amount": 589
+    },
+    "label": 0
+  },
+  {
+    "features": {
+      "zscore": -0.7405124279704902,
+      "noveltyRisk": false,
+      "timeAnomalyRisk": false,
+      "amount": 756
+    },
+    "label": 0
+  },
+  {
+    "features": {
+      "zscore": 10.000000000000002,
+      "noveltyRisk": true,
+      "timeAnomalyRisk": false,
+      "amount": 5490.463920003783
+    },
+    "label": 1
+  },
+  {
+    "features": {
+      "zscore": 6.999999999999999,
+      "noveltyRisk": true,
+      "timeAnomalyRisk": false,
+      "amount": 4168.051059792121
+    },
+    "label": 1
+  },
+  {
+    "features": {
+      "zscore": 5.000000000000001,
+      "noveltyRisk": true,
+      "timeAnomalyRisk": false,
+      "amount": 3286.442486317681
+    },
+    "label": 1
+  },
+  {
+    "features": {
+      "zscore": 1.7264690913100595,
+      "noveltyRisk": false,
+      "timeAnomalyRisk": false,
+      "amount": 1270
+    },
+    "label": 0
+  },
+  {
+    "features": {
+      "zscore": -0.48750130827600413,
+      "noveltyRisk": false,
+      "timeAnomalyRisk": false,
+      "amount": 695
+    },
+    "label": 0
+  },
+  {
+    "features": {
+      "zscore": -0.00235301201888408,
+      "noveltyRisk": false,
+      "timeAnomalyRisk": false,
+      "amount": 821
+    },
+    "label": 0
+  },
+  {
+    "features": {
+      "zscore": 1.0680535463896823,
+      "noveltyRisk": false,
+      "timeAnomalyRisk": false,
+      "amount": 1099
+    },
+    "label": 0
+  },
+  {
+    "features": {
+      "zscore": 1.279824628089219,
+      "noveltyRisk": false,
+      "timeAnomalyRisk": false,
+      "amount": 1154
+    },
+    "label": 0
+  },
+  {
+    "features": {
+      "zscore": -0.14866757755674567,
+      "noveltyRisk": false,
+      "timeAnomalyRisk": false,
+      "amount": 783
+    },
+    "label": 0
+  },
+  {
+    "features": {
+      "zscore": -0.3912417256853057,
+      "noveltyRisk": false,
+      "timeAnomalyRisk": false,
+      "amount": 720
+    },
+    "label": 0
+  },
+  {
+    "features": {
+      "zscore": 0.1824653865552569,
+      "noveltyRisk": false,
+      "timeAnomalyRisk": false,
+      "amount": 869
+    },
+    "label": 0
+  },
+  {
+    "features": {
+      "zscore": 1.1104077627295896,
+      "noveltyRisk": false,
+      "timeAnomalyRisk": false,
+      "amount": 1110
+    },
+    "label": 0
+  },
+  {
+    "features": {
+      "zscore": 1.206667345320288,
+      "noveltyRisk": false,
+      "timeAnomalyRisk": false,
+      "amount": 1135
+    },
+    "label": 0
+  },
+  {
+    "features": {
+      "zscore": 7,
+      "noveltyRisk": true,
+      "timeAnomalyRisk": false,
+      "amount": 2639.611930251483
+    },
+    "label": 1
+  },
+  {
+    "features": {
+      "zscore": 9,
+      "noveltyRisk": true,
+      "timeAnomalyRisk": false,
+      "amount": 3159.0407357201607
+    },
+    "label": 1
+  },
+  {
+    "features": {
+      "zscore": 9,
+      "noveltyRisk": true,
+      "timeAnomalyRisk": false,
+      "amount": 3159.0407357201607
+    },
+    "label": 1
+  },
+  {
+    "features": {
+      "zscore": 5,
+      "noveltyRisk": false,
+      "timeAnomalyRisk": false,
+      "amount": 2120.1831247828054
+    },
+    "label": 1
+  },
+  {
+    "features": {
+      "zscore": 0.37077369675046273,
+      "noveltyRisk": false,
+      "timeAnomalyRisk": false,
+      "amount": 1531
+    },
+    "label": 0
+  },
+  {
+    "features": {
+      "zscore": 1.9602338744303909,
+      "noveltyRisk": false,
+      "timeAnomalyRisk": false,
+      "amount": 2257
+    },
+    "label": 0
+  },
+  {
+    "features": {
+      "zscore": -0.44584978296663536,
+      "noveltyRisk": false,
+      "timeAnomalyRisk": false,
+      "amount": 1158
+    },
+    "label": 0
+  },
+  {
+    "features": {
+      "zscore": -0.5356126855628848,
+      "noveltyRisk": false,
+      "timeAnomalyRisk": false,
+      "amount": 1117
+    },
+    "label": 0
+  },
+  {
+    "features": {
+      "zscore": 1.0144393885382021,
+      "noveltyRisk": false,
+      "timeAnomalyRisk": false,
+      "amount": 1825
+    },
+    "label": 0
+  },
+  {
+    "features": {
+      "zscore": -1.3456681480168426,
+      "noveltyRisk": false,
+      "timeAnomalyRisk": false,
+      "amount": 747
+    },
+    "label": 0
+  },
+  {
+    "features": {
+      "zscore": -1.1858463946137645,
+      "noveltyRisk": false,
+      "timeAnomalyRisk": false,
+      "amount": 820
+    },
+    "label": 0
+  },
+  {
+    "features": {
+      "zscore": -0.20721182240587482,
+      "noveltyRisk": false,
+      "timeAnomalyRisk": false,
+      "amount": 1267
+    },
+    "label": 0
+  },
+  {
+    "features": {
+      "zscore": -1.6040101603670238,
+      "noveltyRisk": false,
+      "timeAnomalyRisk": false,
+      "amount": 629
+    },
+    "label": 0
+  },
+  {
+    "features": {
+      "zscore": 0.5568675192061017,
+      "noveltyRisk": false,
+      "timeAnomalyRisk": false,
+      "amount": 1616
+    },
+    "label": 0
+  },
+  {
+    "features": {
+      "zscore": 2.3630722665696564,
+      "noveltyRisk": false,
+      "timeAnomalyRisk": false,
+      "amount": 2441
+    },
+    "label": 0
+  },
+  {
+    "features": {
+      "zscore": 1.0910662566081712,
+      "noveltyRisk": false,
+      "timeAnomalyRisk": false,
+      "amount": 1860
+    },
+    "label": 0
+  },
+  {
+    "features": {
+      "zscore": 0.3050935241190607,
+      "noveltyRisk": false,
+      "timeAnomalyRisk": false,
+      "amount": 1501
+    },
+    "label": 0
+  },
+  {
+    "features": {
+      "zscore": -0.26413463868642323,
+      "noveltyRisk": false,
+      "timeAnomalyRisk": false,
+      "amount": 1241
+    },
+    "label": 0
+  },
+  {
+    "features": {
+      "zscore": -0.9340723995267235,
+      "noveltyRisk": false,
+      "timeAnomalyRisk": false,
+      "amount": 935
+    },
+    "label": 0
+  },
+  {
+    "features": {
+      "zscore": 0.09929564987400115,
+      "noveltyRisk": false,
+      "timeAnomalyRisk": false,
+      "amount": 1407
+    },
+    "label": 0
+  },
+  {
+    "features": {
+      "zscore": 0.3554483231364689,
+      "noveltyRisk": false,
+      "timeAnomalyRisk": false,
+      "amount": 1524
+    },
+    "label": 0
+  },
+  {
+    "features": {
+      "zscore": 1.0385221185030495,
+      "noveltyRisk": false,
+      "timeAnomalyRisk": false,
+      "amount": 1836
+    },
+    "label": 0
+  },
+  {
+    "features": {
+      "zscore": -1.6499862812090051,
+      "noveltyRisk": false,
+      "timeAnomalyRisk": false,
+      "amount": 608
+    },
+    "label": 0
+  },
+  {
+    "features": {
+      "zscore": 1.6997025229924962,
+      "noveltyRisk": false,
+      "timeAnomalyRisk": false,
+      "amount": 2138
+    },
+    "label": 0
+  },
+  {
+    "features": {
+      "zscore": -0.47431119110690956,
+      "noveltyRisk": false,
+      "timeAnomalyRisk": false,
+      "amount": 1145
+    },
+    "label": 0
+  },
+  {
+    "features": {
+      "zscore": -0.6822984044396826,
+      "noveltyRisk": false,
+      "timeAnomalyRisk": false,
+      "amount": 1050
+    },
+    "label": 0
+  },
+  {
+    "features": {
+      "zscore": 1.8945537017989889,
+      "noveltyRisk": false,
+      "timeAnomalyRisk": false,
+      "amount": 2227
+    },
+    "label": 0
+  },
+  {
+    "features": {
+      "zscore": 1.2946747917655175,
+      "noveltyRisk": false,
+      "timeAnomalyRisk": false,
+      "amount": 1953
+    },
+    "label": 0
+  },
+  {
+    "features": {
+      "zscore": 0.6750918299426253,
+      "noveltyRisk": false,
+      "timeAnomalyRisk": false,
+      "amount": 1670
+    },
+    "label": 0
+  },
+  {
+    "features": {
+      "zscore": 0.20876260425967114,
+      "noveltyRisk": false,
+      "timeAnomalyRisk": false,
+      "amount": 1457
+    },
+    "label": 0
+  },
+  {
+    "features": {
+      "zscore": -0.2816493513881304,
+      "noveltyRisk": false,
+      "timeAnomalyRisk": false,
+      "amount": 1233
+    },
+    "label": 0
+  },
+  {
+    "features": {
+      "zscore": -1.2077397854908984,
+      "noveltyRisk": false,
+      "timeAnomalyRisk": false,
+      "amount": 810
+    },
+    "label": 0
+  },
+  {
+    "features": {
+      "zscore": -0.356086880370386,
+      "noveltyRisk": false,
+      "timeAnomalyRisk": false,
+      "amount": 1199
+    },
+    "label": 0
+  },
+  {
+    "features": {
+      "zscore": 5,
+      "noveltyRisk": false,
+      "timeAnomalyRisk": false,
+      "amount": 3645.4400742803236
+    },
+    "label": 1
+  },
+  {
+    "features": {
+      "zscore": 5,
+      "noveltyRisk": false,
+      "timeAnomalyRisk": false,
+      "amount": 3645.4400742803236
+    },
+    "label": 1
+  },
+  {
+    "features": {
+      "zscore": 8,
+      "noveltyRisk": true,
+      "timeAnomalyRisk": false,
+      "amount": 5015.716618848518
+    },
+    "label": 1
+  },
+  {
+    "features": {
+      "zscore": 9.999999999999996,
+      "noveltyRisk": true,
+      "timeAnomalyRisk": false,
+      "amount": 5929.234315227313
+    },
+    "label": 1
+  },
+  {
+    "features": {
+      "zscore": -0.7732638144917574,
+      "noveltyRisk": false,
+      "timeAnomalyRisk": false,
+      "amount": 1673
+    },
+    "label": 0
+  },
+  {
+    "features": {
+      "zscore": 1.1369483738970905,
+      "noveltyRisk": false,
+      "timeAnomalyRisk": false,
+      "amount": 2792
+    },
+    "label": 0
+  },
+  {
+    "features": {
+      "zscore": 1.9392716344357486,
+      "noveltyRisk": false,
+      "timeAnomalyRisk": false,
+      "amount": 3262
+    },
+    "label": 0
+  },
+  {
+    "features": {
+      "zscore": 0.7477362389974861,
+      "noveltyRisk": false,
+      "timeAnomalyRisk": false,
+      "amount": 2564
+    },
+    "label": 0
+  },
+  {
+    "features": {
+      "zscore": -1.4065870690871662,
+      "noveltyRisk": false,
+      "timeAnomalyRisk": false,
+      "amount": 1302
+    },
+    "label": 0
+  },
+  {
+    "features": {
+      "zscore": -0.16383955063579786,
+      "noveltyRisk": false,
+      "timeAnomalyRisk": false,
+      "amount": 2030
+    },
+    "label": 0
+  },
+  {
+    "features": {
+      "zscore": 1.9751201205449227,
+      "noveltyRisk": false,
+      "timeAnomalyRisk": false,
+      "amount": 3283
+    },
+    "label": 0
+  },
+  {
+    "features": {
+      "zscore": -0.7305870453141692,
+      "noveltyRisk": false,
+      "timeAnomalyRisk": false,
+      "amount": 1698
+    },
+    "label": 0
+  },
+  {
+    "features": {
+      "zscore": -1.024203217255976,
+      "noveltyRisk": false,
+      "timeAnomalyRisk": false,
+      "amount": 1526
+    },
+    "label": 0
+  },
+  {
+    "features": {
+      "zscore": 0.621413002231825,
+      "noveltyRisk": false,
+      "timeAnomalyRisk": false,
+      "amount": 2490
+    },
+    "label": 0
+  },
+  {
+    "features": {
+      "zscore": 1.898301936025264,
+      "noveltyRisk": false,
+      "timeAnomalyRisk": false,
+      "amount": 3238
+    },
+    "label": 0
+  },
+  {
+    "features": {
+      "zscore": -0.5906072424116798,
+      "noveltyRisk": false,
+      "timeAnomalyRisk": false,
+      "amount": 1780
+    },
+    "label": 0
+  },
+  {
+    "features": {
+      "zscore": -0.6640112853971316,
+      "noveltyRisk": false,
+      "timeAnomalyRisk": false,
+      "amount": 1737
+    },
+    "label": 0
+  },
+  {
+    "features": {
+      "zscore": 0.12294833823759485,
+      "noveltyRisk": false,
+      "timeAnomalyRisk": false,
+      "amount": 2198
+    },
+    "label": 0
+  },
+  {
+    "features": {
+      "zscore": 1.6541908163294594,
+      "noveltyRisk": false,
+      "timeAnomalyRisk": false,
+      "amount": 3095
+    },
+    "label": 0
+  },
+  {
+    "features": {
+      "zscore": -3.5131123956929198,
+      "noveltyRisk": false,
+      "timeAnomalyRisk": false,
+      "amount": 68
+    },
+    "label": 0
+  },
+  {
+    "features": {
+      "zscore": 0.28341299034532647,
+      "noveltyRisk": false,
+      "timeAnomalyRisk": false,
+      "amount": 2292
+    },
+    "label": 0
+  },
+  {
+    "features": {
+      "zscore": -1.0873648356388066,
+      "noveltyRisk": false,
+      "timeAnomalyRisk": false,
+      "amount": 1489
+    },
+    "label": 0
+  },
+  {
+    "features": {
+      "zscore": -1.0122537218862513,
+      "noveltyRisk": false,
+      "timeAnomalyRisk": false,
+      "amount": 1533
+    },
+    "label": 0
+  },
+  {
+    "features": {
+      "zscore": 0.09904934749814547,
+      "noveltyRisk": false,
+      "timeAnomalyRisk": false,
+      "amount": 2184
+    },
+    "label": 0
+  },
+  {
+    "features": {
+      "zscore": 0.21000894735987477,
+      "noveltyRisk": false,
+      "timeAnomalyRisk": false,
+      "amount": 2249
+    },
+    "label": 0
+  },
+  {
+    "features": {
+      "zscore": 1.1915746384444035,
+      "noveltyRisk": false,
+      "timeAnomalyRisk": false,
+      "amount": 2824
+    },
+    "label": 0
+  },
+  {
+    "features": {
+      "zscore": -1.2580719123491593,
+      "noveltyRisk": false,
+      "timeAnomalyRisk": false,
+      "amount": 1389
+    },
+    "label": 0
+  },
+  {
+    "features": {
+      "zscore": -0.5189102701933317,
+      "noveltyRisk": false,
+      "timeAnomalyRisk": false,
+      "amount": 1822
+    },
+    "label": 0
+  },
+  {
+    "features": {
+      "zscore": 0.925271598776253,
+      "noveltyRisk": false,
+      "timeAnomalyRisk": false,
+      "amount": 2668
+    },
+    "label": 0
+  },
+  {
+    "features": {
+      "zscore": 0.48655441163064633,
+      "noveltyRisk": false,
+      "timeAnomalyRisk": false,
+      "amount": 2411
+    },
+    "label": 0
+  },
+  {
+    "features": {
+      "zscore": 0.10587763056655958,
+      "noveltyRisk": false,
+      "timeAnomalyRisk": false,
+      "amount": 2188
+    },
+    "label": 0
+  },
+  {
+    "features": {
+      "zscore": 10,
+      "noveltyRisk": true,
+      "timeAnomalyRisk": false,
+      "amount": 7983.964971165953
+    },
+    "label": 1
+  },
+  {
+    "features": {
+      "zscore": 7,
+      "noveltyRisk": false,
+      "timeAnomalyRisk": false,
+      "amount": 6226.568583264443
+    },
+    "label": 1
+  },
+  {
+    "features": {
+      "zscore": 8,
+      "noveltyRisk": true,
+      "timeAnomalyRisk": false,
+      "amount": 6812.367379231613
+    },
+    "label": 1
+  },
+  {
+    "features": {
+      "zscore": 8,
+      "noveltyRisk": true,
+      "timeAnomalyRisk": false,
+      "amount": 6812.367379231613
+    },
+    "label": 1
+  },
+  {
+    "features": {
+      "zscore": 8,
+      "noveltyRisk": true,
+      "timeAnomalyRisk": false,
+      "amount": 6812.367379231613
+    },
+    "label": 1
+  },
+  {
+    "features": {
+      "zscore": -0.4195812523182049,
+      "noveltyRisk": false,
+      "timeAnomalyRisk": false,
+      "amount": 1493
+    },
+    "label": 0
+  },
+  {
+    "features": {
+      "zscore": 3.1825719491680573,
+      "noveltyRisk": false,
+      "timeAnomalyRisk": false,
+      "amount": 3435
+    },
+    "label": 0
+  },
+  {
+    "features": {
+      "zscore": 0.13316934193663862,
+      "noveltyRisk": false,
+      "timeAnomalyRisk": false,
+      "amount": 1791
+    },
+    "label": 0
+  },
+  {
+    "features": {
+      "zscore": 0.4206738456597955,
+      "noveltyRisk": false,
+      "timeAnomalyRisk": false,
+      "amount": 1946
+    },
+    "label": 0
+  },
+  {
+    "features": {
+      "zscore": -0.9630575077432693,
+      "noveltyRisk": false,
+      "timeAnomalyRisk": false,
+      "amount": 1200
+    },
+    "label": 0
+  },
+  {
+    "features": {
+      "zscore": -0.5215989794457767,
+      "noveltyRisk": false,
+      "timeAnomalyRisk": false,
+      "amount": 1438
+    },
+    "label": 0
+  },
+  {
+    "features": {
+      "zscore": 0.1072011932132567,
+      "noveltyRisk": false,
+      "timeAnomalyRisk": false,
+      "amount": 1777
+    },
+    "label": 0
+  },
+  {
+    "features": {
+      "zscore": -0.816522954232757,
+      "noveltyRisk": false,
+      "timeAnomalyRisk": false,
+      "amount": 1279
+    },
+    "label": 0
+  },
+  {
+    "features": {
+      "zscore": 0.22220299470251945,
+      "noveltyRisk": false,
+      "timeAnomalyRisk": false,
+      "amount": 1839
+    },
+    "label": 0
+  },
+  {
+    "features": {
+      "zscore": -0.5494219959351144,
+      "noveltyRisk": false,
+      "timeAnomalyRisk": false,
+      "amount": 1423
+    },
+    "label": 0
+  },
+  {
+    "features": {
+      "zscore": 0.44478712661722153,
+      "noveltyRisk": false,
+      "timeAnomalyRisk": false,
+      "amount": 1959
+    },
+    "label": 0
+  },
+  {
+    "features": {
+      "zscore": -1.3785478873173798,
+      "noveltyRisk": false,
+      "timeAnomalyRisk": false,
+      "amount": 976
+    },
+    "label": 0
+  },
+  {
+    "features": {
+      "zscore": 1.1997183073612527,
+      "noveltyRisk": false,
+      "timeAnomalyRisk": false,
+      "amount": 2366
+    },
+    "label": 0
+  },
+  {
+    "features": {
+      "zscore": 0.2611552177875923,
+      "noveltyRisk": false,
+      "timeAnomalyRisk": false,
+      "amount": 1860
+    },
+    "label": 0
+  },
+  {
+    "features": {
+      "zscore": -0.5772450124244523,
+      "noveltyRisk": false,
+      "timeAnomalyRisk": false,
+      "amount": 1408
+    },
+    "label": 0
+  },
+  {
+    "features": {
+      "zscore": 0.4225287134257513,
+      "noveltyRisk": false,
+      "timeAnomalyRisk": false,
+      "amount": 1947
+    },
+    "label": 0
+  },
+  {
+    "features": {
+      "zscore": 1.272058150233531,
+      "noveltyRisk": false,
+      "timeAnomalyRisk": false,
+      "amount": 2405
+    },
+    "label": 0
+  },
+  {
+    "features": {
+      "zscore": 0.7285818948084667,
+      "noveltyRisk": false,
+      "timeAnomalyRisk": false,
+      "amount": 2112
+    },
+    "label": 0
+  },
+  {
+    "features": {
+      "zscore": 0.9029394648083167,
+      "noveltyRisk": false,
+      "timeAnomalyRisk": false,
+      "amount": 2206
+    },
+    "label": 0
+  },
+  {
+    "features": {
+      "zscore": -0.9741867143390043,
+      "noveltyRisk": false,
+      "timeAnomalyRisk": false,
+      "amount": 1194
+    },
+    "label": 0
+  },
+  {
+    "features": {
+      "zscore": -0.8721689872114325,
+      "noveltyRisk": false,
+      "timeAnomalyRisk": false,
+      "amount": 1249
+    },
+    "label": 0
+  },
+  {
+    "features": {
+      "zscore": -0.8091034831689335,
+      "noveltyRisk": false,
+      "timeAnomalyRisk": false,
+      "amount": 1283
+    },
+    "label": 0
+  },
+  {
+    "features": {
+      "zscore": -0.7516025824243022,
+      "noveltyRisk": false,
+      "timeAnomalyRisk": false,
+      "amount": 1314
+    },
+    "label": 0
+  },
+  {
+    "features": {
+      "zscore": -2.2095286464656008,
+      "noveltyRisk": false,
+      "timeAnomalyRisk": false,
+      "amount": 528
+    },
+    "label": 0
+  },
+  {
+    "features": {
+      "zscore": 0.18881537491531414,
+      "noveltyRisk": false,
+      "timeAnomalyRisk": false,
+      "amount": 1821
+    },
+    "label": 0
+  },
+  {
+    "features": {
+      "zscore": -0.04675283136107892,
+      "noveltyRisk": false,
+      "timeAnomalyRisk": false,
+      "amount": 1694
+    },
+    "label": 0
+  },
+  {
+    "features": {
+      "zscore": 0.8398739607658178,
+      "noveltyRisk": false,
+      "timeAnomalyRisk": false,
+      "amount": 2172
+    },
+    "label": 0
+  },
+  {
+    "features": {
+      "zscore": -0.06530150902063743,
+      "noveltyRisk": false,
+      "timeAnomalyRisk": false,
+      "amount": 1684
+    },
+    "label": 0
+  },
+  {
+    "features": {
+      "zscore": 8,
+      "noveltyRisk": true,
+      "timeAnomalyRisk": false,
+      "amount": 6032.181394410304
+    },
+    "label": 1
+  },
+  {
+    "features": {
+      "zscore": 10,
+      "noveltyRisk": true,
+      "timeAnomalyRisk": false,
+      "amount": 7110.425373149867
+    },
+    "label": 1
+  },
+  {
+    "features": {
+      "zscore": 8,
+      "noveltyRisk": true,
+      "timeAnomalyRisk": false,
+      "amount": 6032.181394410304
+    },
+    "label": 1
+  },
+  {
+    "features": {
+      "zscore": null,
+      "noveltyRisk": false,
+      "timeAnomalyRisk": false,
+      "amount": 10
+    },
+    "label": 0
+  },
+  {
+    "features": {
+      "zscore": null,
+      "noveltyRisk": false,
+      "timeAnomalyRisk": false,
+      "amount": 10
+    },
+    "label": 0
+  },
+  {
+    "features": {
+      "zscore": null,
+      "noveltyRisk": false,
+      "timeAnomalyRisk": false,
+      "amount": 10
+    },
+    "label": 0
+  },
+  {
+    "features": {
+      "zscore": null,
+      "noveltyRisk": false,
+      "timeAnomalyRisk": false,
+      "amount": 10
+    },
+    "label": 0
+  },
+  {
+    "features": {
+      "zscore": null,
+      "noveltyRisk": false,
+      "timeAnomalyRisk": false,
+      "amount": 10
+    },
+    "label": 0
+  },
+  {
+    "features": {
+      "zscore": null,
+      "noveltyRisk": false,
+      "timeAnomalyRisk": false,
+      "amount": 10
+    },
+    "label": 0
+  },
+  {
+    "features": {
+      "zscore": null,
+      "noveltyRisk": false,
+      "timeAnomalyRisk": false,
+      "amount": 10
+    },
+    "label": 0
+  },
+  {
+    "features": {
+      "zscore": null,
+      "noveltyRisk": false,
+      "timeAnomalyRisk": false,
+      "amount": 10
+    },
+    "label": 0
+  },
+  {
+    "features": {
+      "zscore": null,
+      "noveltyRisk": false,
+      "timeAnomalyRisk": false,
+      "amount": 10
+    },
+    "label": 0
+  },
+  {
+    "features": {
+      "zscore": null,
+      "noveltyRisk": false,
+      "timeAnomalyRisk": false,
+      "amount": 10
+    },
+    "label": 0
+  },
+  {
+    "features": {
+      "zscore": null,
+      "noveltyRisk": false,
+      "timeAnomalyRisk": false,
+      "amount": 10
+    },
+    "label": 0
+  },
+  {
+    "features": {
+      "zscore": null,
+      "noveltyRisk": false,
+      "timeAnomalyRisk": false,
+      "amount": 10
+    },
+    "label": 0
+  },
+  {
+    "features": {
+      "zscore": null,
+      "noveltyRisk": false,
+      "timeAnomalyRisk": false,
+      "amount": 10
+    },
+    "label": 0
+  },
+  {
+    "features": {
+      "zscore": null,
+      "noveltyRisk": false,
+      "timeAnomalyRisk": false,
+      "amount": 10
+    },
+    "label": 0
+  },
+  {
+    "features": {
+      "zscore": null,
+      "noveltyRisk": false,
+      "timeAnomalyRisk": false,
+      "amount": 10
+    },
+    "label": 0
+  },
+  {
+    "features": {
+      "zscore": null,
+      "noveltyRisk": false,
+      "timeAnomalyRisk": false,
+      "amount": 10
+    },
+    "label": 0
+  },
+  {
+    "features": {
+      "zscore": null,
+      "noveltyRisk": false,
+      "timeAnomalyRisk": false,
+      "amount": 10
+    },
+    "label": 0
+  },
+  {
+    "features": {
+      "zscore": null,
+      "noveltyRisk": false,
+      "timeAnomalyRisk": false,
+      "amount": 10
+    },
+    "label": 0
+  },
+  {
+    "features": {
+      "zscore": null,
+      "noveltyRisk": false,
+      "timeAnomalyRisk": false,
+      "amount": 10
+    },
+    "label": 0
+  },
+  {
+    "features": {
+      "zscore": null,
+      "noveltyRisk": false,
+      "timeAnomalyRisk": false,
+      "amount": 10
+    },
+    "label": 0
+  },
+  {
+    "features": {
+      "zscore": null,
+      "noveltyRisk": false,
+      "timeAnomalyRisk": false,
+      "amount": 10
+    },
+    "label": 0
+  },
+  {
+    "features": {
+      "zscore": null,
+      "noveltyRisk": false,
+      "timeAnomalyRisk": false,
+      "amount": 10
+    },
+    "label": 0
+  },
+  {
+    "features": {
+      "zscore": null,
+      "noveltyRisk": false,
+      "timeAnomalyRisk": false,
+      "amount": 10
+    },
+    "label": 0
+  },
+  {
+    "features": {
+      "zscore": null,
+      "noveltyRisk": false,
+      "timeAnomalyRisk": false,
+      "amount": 10
+    },
+    "label": 0
+  },
+  {
+    "features": {
+      "zscore": null,
+      "noveltyRisk": false,
+      "timeAnomalyRisk": false,
+      "amount": 10
+    },
+    "label": 0
+  },
+  {
+    "features": {
+      "zscore": 0.4573138290539511,
+      "noveltyRisk": false,
+      "timeAnomalyRisk": false,
+      "amount": 2186
+    },
+    "label": 0
+  },
+  {
+    "features": {
+      "zscore": -0.7044781496374548,
+      "noveltyRisk": false,
+      "timeAnomalyRisk": false,
+      "amount": 1581
+    },
+    "label": 0
+  },
+  {
+    "features": {
+      "zscore": -1.100063517588578,
+      "noveltyRisk": false,
+      "timeAnomalyRisk": false,
+      "amount": 1375
+    },
+    "label": 0
+  },
+  {
+    "features": {
+      "zscore": -0.31657405096693575,
+      "noveltyRisk": false,
+      "timeAnomalyRisk": false,
+      "amount": 1783
+    },
+    "label": 0
+  },
+  {
+    "features": {
+      "zscore": -0.481721340499929,
+      "noveltyRisk": false,
+      "timeAnomalyRisk": false,
+      "amount": 1697
+    },
+    "label": 0
+  },
+  {
+    "features": {
+      "zscore": 1.117902987185924,
+      "noveltyRisk": false,
+      "timeAnomalyRisk": false,
+      "amount": 2530
+    },
+    "label": 0
+  },
+  {
+    "features": {
+      "zscore": -2.098628524067142,
+      "noveltyRisk": false,
+      "timeAnomalyRisk": false,
+      "amount": 855
+    },
+    "label": 0
+  },
+  {
+    "features": {
+      "zscore": 1.0084448999373123,
+      "noveltyRisk": false,
+      "timeAnomalyRisk": false,
+      "amount": 2473
+    },
+    "label": 0
+  },
+  {
+    "features": {
+      "zscore": 0.1231786153476625,
+      "noveltyRisk": false,
+      "timeAnomalyRisk": false,
+      "amount": 2012
+    },
+    "label": 0
+  },
+  {
+    "features": {
+      "zscore": 2.734810170753137,
+      "noveltyRisk": false,
+      "timeAnomalyRisk": false,
+      "amount": 3372
+    },
+    "label": 0
+  },
+  {
+    "features": {
+      "zscore": 0.3708995496471524,
+      "noveltyRisk": false,
+      "timeAnomalyRisk": false,
+      "amount": 2141
+    },
+    "label": 0
+  },
+  {
+    "features": {
+      "zscore": -0.9272349587749805,
+      "noveltyRisk": false,
+      "timeAnomalyRisk": false,
+      "amount": 1465
+    },
+    "label": 0
+  },
+  {
+    "features": {
+      "zscore": 0.5264452525793901,
+      "noveltyRisk": false,
+      "timeAnomalyRisk": false,
+      "amount": 2222
+    },
+    "label": 0
+  },
+  {
+    "features": {
+      "zscore": 2.1836790998697757,
+      "noveltyRisk": false,
+      "timeAnomalyRisk": false,
+      "amount": 3085
+    },
+    "label": 0
+  },
+  {
+    "features": {
+      "zscore": 0.6704690515907215,
+      "noveltyRisk": false,
+      "timeAnomalyRisk": false,
+      "amount": 2297
+    },
+    "label": 0
+  },
+  {
+    "features": {
+      "zscore": 0.5149233486584837,
+      "noveltyRisk": false,
+      "timeAnomalyRisk": false,
+      "amount": 2216
+    },
+    "label": 0
+  },
+  {
+    "features": {
+      "zscore": 0.8855445914476429,
+      "noveltyRisk": false,
+      "timeAnomalyRisk": false,
+      "amount": 2409
+    },
+    "label": 0
+  },
+  {
+    "features": {
+      "zscore": -0.07269375130774809,
+      "noveltyRisk": false,
+      "timeAnomalyRisk": false,
+      "amount": 1910
+    },
+    "label": 0
+  },
+  {
+    "features": {
+      "zscore": -2.102469158707444,
+      "noveltyRisk": false,
+      "timeAnomalyRisk": false,
+      "amount": 853
+    },
+    "label": 0
+  },
+  {
+    "features": {
+      "zscore": -1.668477444353299,
+      "noveltyRisk": false,
+      "timeAnomalyRisk": false,
+      "amount": 1079
+    },
+    "label": 0
+  },
+  {
+    "features": {
+      "zscore": -1.1922387489558302,
+      "noveltyRisk": false,
+      "timeAnomalyRisk": false,
+      "amount": 1327
+    },
+    "label": 0
+  },
+  {
+    "features": {
+      "zscore": 9,
+      "noveltyRisk": true,
+      "timeAnomalyRisk": false,
+      "amount": 6634.580493079102
+    },
+    "label": 1
+  },
+  {
+    "features": {
+      "zscore": 8,
+      "noveltyRisk": true,
+      "timeAnomalyRisk": false,
+      "amount": 6113.833224121842
+    },
+    "label": 1
+  },
+  {
+    "features": {
+      "zscore": 10,
+      "noveltyRisk": true,
+      "timeAnomalyRisk": false,
+      "amount": 7155.327762036361
+    },
+    "label": 1
+  },
+  {
+    "features": {
+      "zscore": 6.999999999999999,
+      "noveltyRisk": false,
+      "timeAnomalyRisk": false,
+      "amount": 5593.085955164583
+    },
+    "label": 1
+  },
+  {
+    "features": {
+      "zscore": 0.6506829503115973,
+      "noveltyRisk": false,
+      "timeAnomalyRisk": false,
+      "amount": 1224
+    },
+    "label": 0
+  },
+  {
+    "features": {
+      "zscore": -0.13097885188918165,
+      "noveltyRisk": false,
+      "timeAnomalyRisk": false,
+      "amount": 991
+    },
+    "label": 0
+  },
+  {
+    "features": {
+      "zscore": -0.16117179703856796,
+      "noveltyRisk": false,
+      "timeAnomalyRisk": false,
+      "amount": 982
+    },
+    "label": 0
+  },
+  {
+    "features": {
+      "zscore": -0.07730250495693933,
+      "noveltyRisk": false,
+      "timeAnomalyRisk": false,
+      "amount": 1007
+    },
+    "label": 0
+  },
+  {
+    "features": {
+      "zscore": 0.49971822456466575,
+      "noveltyRisk": false,
+      "timeAnomalyRisk": false,
+      "amount": 1179
+    },
+    "label": 0
+  },
+  {
+    "features": {
+      "zscore": 0.0635979057401968,
+      "noveltyRisk": false,
+      "timeAnomalyRisk": false,
+      "amount": 1049
+    },
+    "label": 0
+  },
+  {
+    "features": {
+      "zscore": 0.7982929043752638,
+      "noveltyRisk": false,
+      "timeAnomalyRisk": false,
+      "amount": 1268
+    },
+    "label": 0
+  },
+  {
+    "features": {
+      "zscore": 0.27830329346916616,
+      "noveltyRisk": false,
+      "timeAnomalyRisk": false,
+      "amount": 1113
+    },
+    "label": 0
+  },
+  {
+    "features": {
+      "zscore": -1.1575389869683164,
+      "noveltyRisk": false,
+      "timeAnomalyRisk": false,
+      "amount": 685
+    },
+    "label": 0
+  },
+  {
+    "features": {
+      "zscore": -0.4899394219985523,
+      "noveltyRisk": false,
+      "timeAnomalyRisk": false,
+      "amount": 884
+    },
+    "label": 0
+  },
+  {
+    "features": {
+      "zscore": -1.7077215430238002,
+      "noveltyRisk": false,
+      "timeAnomalyRisk": false,
+      "amount": 521
+    },
+    "label": 0
+  },
+  {
+    "features": {
+      "zscore": -0.5335514538809991,
+      "noveltyRisk": false,
+      "timeAnomalyRisk": false,
+      "amount": 871
+    },
+    "label": 0
+  },
+  {
+    "features": {
+      "zscore": 1.4927306428111489,
+      "noveltyRisk": false,
+      "timeAnomalyRisk": false,
+      "amount": 1475
+    },
+    "label": 0
+  },
+  {
+    "features": {
+      "zscore": 0.019985873857749904,
+      "noveltyRisk": false,
+      "timeAnomalyRisk": false,
+      "amount": 1036
+    },
+    "label": 0
+  },
+  {
+    "features": {
+      "zscore": 1.1874464196340206,
+      "noveltyRisk": false,
+      "timeAnomalyRisk": false,
+      "amount": 1384
+    },
+    "label": 0
+  },
+  {
+    "features": {
+      "zscore": -0.392651043183863,
+      "noveltyRisk": false,
+      "timeAnomalyRisk": false,
+      "amount": 913
+    },
+    "label": 0
+  },
+  {
+    "features": {
+      "zscore": 0.8754526530903621,
+      "noveltyRisk": false,
+      "timeAnomalyRisk": false,
+      "amount": 1291
+    },
+    "label": 0
+  },
+  {
+    "features": {
+      "zscore": 0.7613904158593471,
+      "noveltyRisk": false,
+      "timeAnomalyRisk": false,
+      "amount": 1257
+    },
+    "label": 0
+  },
+  {
+    "features": {
+      "zscore": 0.056888362373666505,
+      "noveltyRisk": false,
+      "timeAnomalyRisk": false,
+      "amount": 1047
+    },
+    "label": 0
+  },
+  {
+    "features": {
+      "zscore": 1.197510734683816,
+      "noveltyRisk": false,
+      "timeAnomalyRisk": false,
+      "amount": 1387
+    },
+    "label": 0
+  },
+  {
+    "features": {
+      "zscore": 2.9151538365155707,
+      "noveltyRisk": false,
+      "timeAnomalyRisk": false,
+      "amount": 1899
+    },
+    "label": 0
+  },
+  {
+    "features": {
+      "zscore": -0.3825867281340676,
+      "noveltyRisk": false,
+      "timeAnomalyRisk": false,
+      "amount": 916
+    },
+    "label": 0
+  },
+  {
+    "features": {
+      "zscore": -3.1871758553437295,
+      "noveltyRisk": false,
+      "timeAnomalyRisk": false,
+      "amount": 80
+    },
+    "label": 0
+  },
+  {
+    "features": {
+      "zscore": -0.40271535823365845,
+      "noveltyRisk": false,
+      "timeAnomalyRisk": false,
+      "amount": 910
+    },
+    "label": 0
+  },
+  {
+    "features": {
+      "zscore": -0.15110748198877252,
+      "noveltyRisk": false,
+      "timeAnomalyRisk": false,
+      "amount": 985
+    },
+    "label": 0
+  },
+  {
+    "features": {
+      "zscore": -1.5366281871772778,
+      "noveltyRisk": false,
+      "timeAnomalyRisk": false,
+      "amount": 572
+    },
+    "label": 0
+  },
+  {
+    "features": {
+      "zscore": 0.872097881407097,
+      "noveltyRisk": false,
+      "timeAnomalyRisk": false,
+      "amount": 1290
+    },
+    "label": 0
+  },
+  {
+    "features": {
+      "zscore": -0.5637443990303854,
+      "noveltyRisk": false,
+      "timeAnomalyRisk": false,
+      "amount": 862
+    },
+    "label": 0
+  },
+  {
+    "features": {
+      "zscore": 9,
+      "noveltyRisk": true,
+      "timeAnomalyRisk": false,
+      "amount": 3712.788459535984
+    },
+    "label": 1
+  },
+  {
+    "features": {
+      "zscore": 5,
+      "noveltyRisk": false,
+      "timeAnomalyRisk": false,
+      "amount": 2520.4569456050976
+    },
+    "label": 1
+  },
+  {
+    "features": {
+      "zscore": 5,
+      "noveltyRisk": false,
+      "timeAnomalyRisk": false,
+      "amount": 2520.4569456050976
+    },
+    "label": 1
+  },
+  {
+    "features": {
+      "zscore": 6.000000000000001,
+      "noveltyRisk": false,
+      "timeAnomalyRisk": false,
+      "amount": 2818.5398240878194
+    },
+    "label": 1
+  },
+  {
+    "features": {
+      "zscore": 6.000000000000001,
+      "noveltyRisk": false,
+      "timeAnomalyRisk": false,
+      "amount": 2818.5398240878194
+    },
+    "label": 1
+  },
+  {
+    "features": {
+      "zscore": -0.7249032293295802,
+      "noveltyRisk": false,
+      "timeAnomalyRisk": false,
+      "amount": 293
+    },
+    "label": 0
+  },
+  {
+    "features": {
+      "zscore": -0.03225564720670337,
+      "noveltyRisk": false,
+      "timeAnomalyRisk": false,
+      "amount": 361
+    },
+    "label": 0
+  },
+  {
+    "features": {
+      "zscore": 0.8335538304468926,
+      "noveltyRisk": false,
+      "timeAnomalyRisk": false,
+      "amount": 446
+    },
+    "label": 0
+  },
+  {
+    "features": {
+      "zscore": 0.4872300393854542,
+      "noveltyRisk": false,
+      "timeAnomalyRisk": false,
+      "amount": 412
+    },
+    "label": 0
+  },
+  {
+    "features": {
+      "zscore": 0.17146422988826038,
+      "noveltyRisk": false,
+      "timeAnomalyRisk": false,
+      "amount": 381
+    },
+    "label": 0
+  },
+  {
+    "features": {
+      "zscore": 0.6909499164804179,
+      "noveltyRisk": false,
+      "timeAnomalyRisk": false,
+      "amount": 432
+    },
+    "label": 0
+  },
+  {
+    "features": {
+      "zscore": -0.48043937681562365,
+      "noveltyRisk": false,
+      "timeAnomalyRisk": false,
+      "amount": 317
+    },
+    "label": 0
+  },
+  {
+    "features": {
+      "zscore": 0.44648606396646145,
+      "noveltyRisk": false,
+      "timeAnomalyRisk": false,
+      "amount": 408
+    },
+    "label": 0
+  },
+  {
+    "features": {
+      "zscore": 0.2325801930167495,
+      "noveltyRisk": false,
+      "timeAnomalyRisk": false,
+      "amount": 387
+    },
+    "label": 0
+  },
+  {
+    "features": {
+      "zscore": -0.10355760418994069,
+      "noveltyRisk": false,
+      "timeAnomalyRisk": false,
+      "amount": 354
+    },
+    "label": 0
+  },
+  {
+    "features": {
+      "zscore": 6.999999999999999,
+      "noveltyRisk": false,
+      "timeAnomalyRisk": false,
+      "amount": 1051.384831120689
+    },
+    "label": 1
+  },
+  {
+    "features": {
+      "zscore": 6.999999999999999,
+      "noveltyRisk": false,
+      "timeAnomalyRisk": false,
+      "amount": 1051.384831120689
+    },
+    "label": 1
+  },
+  {
+    "features": {
+      "zscore": 8,
+      "noveltyRisk": true,
+      "timeAnomalyRisk": false,
+      "amount": 1149.5588546141207
+    },
+    "label": 1
+  },
+  {
+    "features": {
+      "zscore": 0.6059984659748383,
+      "noveltyRisk": false,
+      "timeAnomalyRisk": false,
+      "amount": 1642
+    },
+    "label": 0
+  },
+  {
+    "features": {
+      "zscore": 0.26297111345574786,
+      "noveltyRisk": false,
+      "timeAnomalyRisk": false,
+      "amount": 1469
+    },
+    "label": 0
+  },
+  {
+    "features": {
+      "zscore": 1.946382802985851,
+      "noveltyRisk": false,
+      "timeAnomalyRisk": false,
+      "amount": 2318
+    },
+    "label": 0
+  },
+  {
+    "features": {
+      "zscore": 0.16977871132628394,
+      "noveltyRisk": false,
+      "timeAnomalyRisk": false,
+      "amount": 1422
+    },
+    "label": 0
+  },
+  {
+    "features": {
+      "zscore": 0.44340746651492263,
+      "noveltyRisk": false,
+      "timeAnomalyRisk": false,
+      "amount": 1560
+    },
+    "label": 0
+  },
+  {
+    "features": {
+      "zscore": -1.4382859296736143,
+      "noveltyRisk": false,
+      "timeAnomalyRisk": false,
+      "amount": 611
+    },
+    "label": 0
+  },
+  {
+    "features": {
+      "zscore": 2.305272692037616,
+      "noveltyRisk": false,
+      "timeAnomalyRisk": false,
+      "amount": 2499
+    },
+    "label": 0
+  },
+  {
+    "features": {
+      "zscore": 1.42490191447417,
+      "noveltyRisk": false,
+      "timeAnomalyRisk": false,
+      "amount": 2055
+    },
+    "label": 0
+  },
+  {
+    "features": {
+      "zscore": 0.34030097905253703,
+      "noveltyRisk": false,
+      "timeAnomalyRisk": false,
+      "amount": 1508
+    },
+    "label": 0
+  },
+  {
+    "features": {
+      "zscore": -0.645159103039879,
+      "noveltyRisk": false,
+      "timeAnomalyRisk": true,
+      "amount": 1011
+    },
+    "label": 0
+  },
+  {
+    "features": {
+      "zscore": -0.11178131212869206,
+      "noveltyRisk": false,
+      "timeAnomalyRisk": false,
+      "amount": 1280
+    },
+    "label": 0
+  },
+  {
+    "features": {
+      "zscore": 0.6635001609057841,
+      "noveltyRisk": false,
+      "timeAnomalyRisk": false,
+      "amount": 1671
+    },
+    "label": 0
+  },
+  {
+    "features": {
+      "zscore": -0.22678470199058368,
+      "noveltyRisk": false,
+      "timeAnomalyRisk": false,
+      "amount": 1222
+    },
+    "label": 0
+  },
+  {
+    "features": {
+      "zscore": -0.7324030539695899,
+      "noveltyRisk": false,
+      "timeAnomalyRisk": false,
+      "amount": 967
+    },
+    "label": 0
+  },
+  {
+    "features": {
+      "zscore": -0.9068909558290117,
+      "noveltyRisk": false,
+      "timeAnomalyRisk": true,
+      "amount": 879
+    },
+    "label": 0
+  },
+  {
+    "features": {
+      "zscore": -1.2241416864825059,
+      "noveltyRisk": false,
+      "timeAnomalyRisk": true,
+      "amount": 719
+    },
+    "label": 0
+  },
+  {
+    "features": {
+      "zscore": -1.412509307808018,
+      "noveltyRisk": false,
+      "timeAnomalyRisk": false,
+      "amount": 624
+    },
+    "label": 0
+  },
+  {
+    "features": {
+      "zscore": 0.49892634437928407,
+      "noveltyRisk": false,
+      "timeAnomalyRisk": false,
+      "amount": 1588
+    },
+    "label": 0
+  },
+  {
+    "features": {
+      "zscore": 1.3872283902090676,
+      "noveltyRisk": false,
+      "timeAnomalyRisk": false,
+      "amount": 2036
+    },
+    "label": 0
+  },
+  {
+    "features": {
+      "zscore": -1.1686228086181443,
+      "noveltyRisk": false,
+      "timeAnomalyRisk": false,
+      "amount": 747
+    },
+    "label": 0
+  },
+  {
+    "features": {
+      "zscore": 9.999999999999998,
+      "noveltyRisk": true,
+      "timeAnomalyRisk": false,
+      "amount": 6379.7045983407625
+    },
+    "label": 1
+  },
+  {
+    "features": {
+      "zscore": 8,
+      "noveltyRisk": true,
+      "timeAnomalyRisk": false,
+      "amount": 5371.03867867261
+    },
+    "label": 1
+  },
+  {
+    "features": {
+      "zscore": 4.999999999999999,
+      "noveltyRisk": false,
+      "timeAnomalyRisk": false,
+      "amount": 3858.0397991703812
+    },
+    "label": 1
+  },
+  {
+    "features": {
+      "zscore": 9,
+      "noveltyRisk": true,
+      "timeAnomalyRisk": false,
+      "amount": 5875.371638506686
+    },
+    "label": 1
+  },
+  {
+    "features": {
+      "zscore": 4.999999999999999,
+      "noveltyRisk": false,
+      "timeAnomalyRisk": false,
+      "amount": 3858.0397991703812
+    },
+    "label": 1
+  },
+  {
+    "features": {
+      "zscore": 0.13200073330456552,
+      "noveltyRisk": false,
+      "timeAnomalyRisk": false,
+      "amount": 1852
+    },
+    "label": 0
+  },
+  {
+    "features": {
+      "zscore": 1.7933892731723642,
+      "noveltyRisk": false,
+      "timeAnomalyRisk": false,
+      "amount": 2728
+    },
+    "label": 0
+  },
+  {
+    "features": {
+      "zscore": -2.24059865410938,
+      "noveltyRisk": false,
+      "timeAnomalyRisk": false,
+      "amount": 601
+    },
+    "label": 0
+  },
+  {
+    "features": {
+      "zscore": -0.2624842168010305,
+      "noveltyRisk": false,
+      "timeAnomalyRisk": false,
+      "amount": 1644
+    },
+    "label": 0
+  },
+  {
+    "features": {
+      "zscore": 1.2111446593145854,
+      "noveltyRisk": false,
+      "timeAnomalyRisk": false,
+      "amount": 2421
+    },
+    "label": 0
+  },
+  {
+    "features": {
+      "zscore": 0.7351075320236978,
+      "noveltyRisk": false,
+      "timeAnomalyRisk": false,
+      "amount": 2170
+    },
+    "label": 0
+  },
+  {
+    "features": {
+      "zscore": -1.396628448354619,
+      "noveltyRisk": false,
+      "timeAnomalyRisk": false,
+      "amount": 1046
+    },
+    "label": 0
+  },
+  {
+    "features": {
+      "zscore": -1.0135228718097613,
+      "noveltyRisk": false,
+      "timeAnomalyRisk": false,
+      "amount": 1248
+    },
+    "label": 0
+  },
+  {
+    "features": {
+      "zscore": 0.67441753969976,
+      "noveltyRisk": false,
+      "timeAnomalyRisk": false,
+      "amount": 2138
+    },
+    "label": 0
+  },
+  {
+    "features": {
+      "zscore": 0.7332109697635748,
+      "noveltyRisk": false,
+      "timeAnomalyRisk": false,
+      "amount": 2169
+    },
+    "label": 0
+  },
+  {
+    "features": {
+      "zscore": -0.10317298695069366,
+      "noveltyRisk": false,
+      "timeAnomalyRisk": false,
+      "amount": 1728
+    },
+    "label": 0
+  },
+  {
+    "features": {
+      "zscore": -1.4649046897190492,
+      "noveltyRisk": false,
+      "timeAnomalyRisk": false,
+      "amount": 1010
+    },
+    "label": 0
+  },
+  {
+    "features": {
+      "zscore": -0.36869170336792173,
+      "noveltyRisk": false,
+      "timeAnomalyRisk": false,
+      "amount": 1588
+    },
+    "label": 0
+  },
+  {
+    "features": {
+      "zscore": 0.33682945739785575,
+      "noveltyRisk": false,
+      "timeAnomalyRisk": false,
+      "amount": 1960
+    },
+    "label": 0
+  },
+  {
+    "features": {
+      "zscore": -0.2681739035813997,
+      "noveltyRisk": false,
+      "timeAnomalyRisk": false,
+      "amount": 1641
+    },
+    "label": 0
+  },
+  {
+    "features": {
+      "zscore": 0.7882112753071435,
+      "noveltyRisk": false,
+      "timeAnomalyRisk": false,
+      "amount": 2198
+    },
+    "label": 0
+  },
+  {
+    "features": {
+      "zscore": 0.6573484793586525,
+      "noveltyRisk": false,
+      "timeAnomalyRisk": false,
+      "amount": 2129
+    },
+    "label": 0
+  },
+  {
+    "features": {
+      "zscore": 1.6018364848999354,
+      "noveltyRisk": false,
+      "timeAnomalyRisk": false,
+      "amount": 2627
+    },
+    "label": 0
+  },
+  {
+    "features": {
+      "zscore": -0.5830032387618272,
+      "noveltyRisk": false,
+      "timeAnomalyRisk": false,
+      "amount": 1475
+    },
+    "label": 0
+  },
+  {
+    "features": {
+      "zscore": -1.426973444516588,
+      "noveltyRisk": false,
+      "timeAnomalyRisk": false,
+      "amount": 1030
+    },
+    "label": 0
+  },
+  {
+    "features": {
+      "zscore": -0.8978325739422548,
+      "noveltyRisk": false,
+      "timeAnomalyRisk": false,
+      "amount": 1309
+    },
+    "label": 0
+  },
+  {
+    "features": {
+      "zscore": 7,
+      "noveltyRisk": true,
+      "timeAnomalyRisk": false,
+      "amount": 5473.288586776902
+    },
+    "label": 1
+  },
+  {
+    "features": {
+      "zscore": 8,
+      "noveltyRisk": true,
+      "timeAnomalyRisk": false,
+      "amount": 6000.558384887888
+    },
+    "label": 1
+  },
+  {
+    "features": {
+      "zscore": 9,
+      "noveltyRisk": true,
+      "timeAnomalyRisk": false,
+      "amount": 6527.828182998874
+    },
+    "label": 1
+  },
+  {
+    "features": {
+      "zscore": 5.000000000000001,
+      "noveltyRisk": false,
+      "timeAnomalyRisk": false,
+      "amount": 4418.74899055493
+    },
+    "label": 1
+  },
+  {
+    "features": {
+      "zscore": 7,
+      "noveltyRisk": true,
+      "timeAnomalyRisk": false,
+      "amount": 5473.288586776902
+    },
+    "label": 1
+  },
+  {
+    "features": {
+      "zscore": -0.40095369810448195,
+      "noveltyRisk": false,
+      "timeAnomalyRisk": false,
+      "amount": 1838
+    },
+    "label": 0
+  },
+  {
+    "features": {
+      "zscore": -1.7210662959668925,
+      "noveltyRisk": false,
+      "timeAnomalyRisk": false,
+      "amount": 1058
+    },
+    "label": 0
+  },
+  {
+    "features": {
+      "zscore": 1.1256380496799978,
+      "noveltyRisk": false,
+      "timeAnomalyRisk": false,
+      "amount": 2740
+    },
+    "label": 0
+  },
+  {
+    "features": {
+      "zscore": 0.1524781217686055,
+      "noveltyRisk": false,
+      "timeAnomalyRisk": false,
+      "amount": 2165
+    },
+    "label": 0
+  },
+  {
+    "features": {
+      "zscore": -0.989927010996942,
+      "noveltyRisk": false,
+      "timeAnomalyRisk": false,
+      "amount": 1490
+    },
+    "label": 0
+  },
+  {
+    "features": {
+      "zscore": 1.0207060226704217,
+      "noveltyRisk": false,
+      "timeAnomalyRisk": false,
+      "amount": 2678
+    },
+    "label": 0
+  },
+  {
+    "features": {
+      "zscore": -2.4877470739562155,
+      "noveltyRisk": false,
+      "timeAnomalyRisk": false,
+      "amount": 605
+    },
+    "label": 0
+  },
+  {
+    "features": {
+      "zscore": -1.563668255452528,
+      "noveltyRisk": false,
+      "timeAnomalyRisk": false,
+      "amount": 1151
+    },
+    "label": 0
+  },
+  {
+    "features": {
+      "zscore": 0.7939174481658536,
+      "noveltyRisk": false,
+      "timeAnomalyRisk": false,
+      "amount": 2544
+    },
+    "label": 0
+  },
+  {
+    "features": {
+      "zscore": 0.9343909681948025,
+      "noveltyRisk": false,
+      "timeAnomalyRisk": false,
+      "amount": 2627
+    },
+    "label": 0
+  },
+  {
+    "features": {
+      "zscore": 1.3084228709224854,
+      "noveltyRisk": false,
+      "timeAnomalyRisk": false,
+      "amount": 2848
+    },
+    "label": 0
+  },
+  {
+    "features": {
+      "zscore": -1.1117835584919338,
+      "noveltyRisk": false,
+      "timeAnomalyRisk": false,
+      "amount": 1418
+    },
+    "label": 0
+  },
+  {
+    "features": {
+      "zscore": 0.005234793545490489,
+      "noveltyRisk": false,
+      "timeAnomalyRisk": false,
+      "amount": 2078
+    },
+    "label": 0
+  },
+  {
+    "features": {
+      "zscore": 0.8193042288939769,
+      "noveltyRisk": false,
+      "timeAnomalyRisk": false,
+      "amount": 2559
+    },
+    "label": 0
+  },
+  {
+    "features": {
+      "zscore": -1.5332041185787801,
+      "noveltyRisk": false,
+      "timeAnomalyRisk": false,
+      "amount": 1169
+    },
+    "label": 0
+  },
+  {
+    "features": {
+      "zscore": 1.494592596262056,
+      "noveltyRisk": false,
+      "timeAnomalyRisk": false,
+      "amount": 2958
+    },
+    "label": 0
+  },
+  {
+    "features": {
+      "zscore": -0.5735838070557202,
+      "noveltyRisk": false,
+      "timeAnomalyRisk": false,
+      "amount": 1736
+    },
+    "label": 0
+  },
+  {
+    "features": {
+      "zscore": 0.9123890915637622,
+      "noveltyRisk": false,
+      "timeAnomalyRisk": false,
+      "amount": 2614
+    },
+    "label": 0
+  },
+  {
+    "features": {
+      "zscore": -2.29649999247102,
+      "noveltyRisk": false,
+      "timeAnomalyRisk": false,
+      "amount": 718
+    },
+    "label": 0
+  },
+  {
+    "features": {
+      "zscore": 0.14401586152589774,
+      "noveltyRisk": false,
+      "timeAnomalyRisk": false,
+      "amount": 2160
+    },
+    "label": 0
+  },
+  {
+    "features": {
+      "zscore": 1.0630173238839604,
+      "noveltyRisk": false,
+      "timeAnomalyRisk": false,
+      "amount": 2703
+    },
+    "label": 0
+  },
+  {
+    "features": {
+      "zscore": -0.6040479439294681,
+      "noveltyRisk": false,
+      "timeAnomalyRisk": false,
+      "amount": 1718
+    },
+    "label": 0
+  },
+  {
+    "features": {
+      "zscore": 0.6162099830689908,
+      "noveltyRisk": false,
+      "timeAnomalyRisk": false,
+      "amount": 2439
+    },
+    "label": 0
+  },
+  {
+    "features": {
+      "zscore": -0.8443761348223685,
+      "noveltyRisk": false,
+      "timeAnomalyRisk": false,
+      "amount": 1576
+    },
+    "label": 0
+  },
+  {
+    "features": {
+      "zscore": -1.0880892298123521,
+      "noveltyRisk": false,
+      "timeAnomalyRisk": false,
+      "amount": 1432
+    },
+    "label": 0
+  },
+  {
+    "features": {
+      "zscore": 0.3504950114479671,
+      "noveltyRisk": false,
+      "timeAnomalyRisk": false,
+      "amount": 2282
+    },
+    "label": 0
+  },
+  {
+    "features": {
+      "zscore": -0.43649519112385454,
+      "noveltyRisk": false,
+      "timeAnomalyRisk": false,
+      "amount": 1817
+    },
+    "label": 0
+  },
+  {
+    "features": {
+      "zscore": 8,
+      "noveltyRisk": true,
+      "timeAnomalyRisk": false,
+      "amount": 6801.776495377752
+    },
+    "label": 1
+  },
+  {
+    "features": {
+      "zscore": 5.000000000000001,
+      "noveltyRisk": false,
+      "timeAnomalyRisk": false,
+      "amount": 5029.200425890165
+    },
+    "label": 1
+  },
+  {
+    "features": {
+      "zscore": 9,
+      "noveltyRisk": true,
+      "timeAnomalyRisk": false,
+      "amount": 7392.635185206948
+    },
+    "label": 1
+  },
+  {
+    "features": {
+      "zscore": 7,
+      "noveltyRisk": false,
+      "timeAnomalyRisk": false,
+      "amount": 6210.917805548556
+    },
+    "label": 1
+  },
+  {
+    "features": {
+      "zscore": -0.046882125340743694,
+      "noveltyRisk": false,
+      "timeAnomalyRisk": false,
+      "amount": 1292
+    },
+    "label": 0
+  },
+  {
+    "features": {
+      "zscore": 1.4814184485190514,
+      "noveltyRisk": false,
+      "timeAnomalyRisk": false,
+      "amount": 1729
+    },
+    "label": 0
+  },
+  {
+    "features": {
+      "zscore": -0.2742037209949466,
+      "noveltyRisk": false,
+      "timeAnomalyRisk": false,
+      "amount": 1227
+    },
+    "label": 0
+  },
+  {
+    "features": {
+      "zscore": -0.3021817635370024,
+      "noveltyRisk": false,
+      "timeAnomalyRisk": false,
+      "amount": 1219
+    },
+    "label": 0
+  },
+  {
+    "features": {
+      "zscore": 1.1841517465097091,
+      "noveltyRisk": false,
+      "timeAnomalyRisk": false,
+      "amount": 1644
+    },
+    "label": 0
+  },
+  {
+    "features": {
+      "zscore": -0.05037938065850066,
+      "noveltyRisk": false,
+      "timeAnomalyRisk": false,
+      "amount": 1291
+    },
+    "label": 0
+  },
+  {
+    "features": {
+      "zscore": -0.9246932100977427,
+      "noveltyRisk": false,
+      "timeAnomalyRisk": false,
+      "amount": 1041
+    },
+    "label": 0
+  },
+  {
+    "features": {
+      "zscore": 0.3483077255657937,
+      "noveltyRisk": false,
+      "timeAnomalyRisk": false,
+      "amount": 1405
+    },
+    "label": 0
+  },
+  {
+    "features": {
+      "zscore": 0.3727885127900925,
+      "noveltyRisk": false,
+      "timeAnomalyRisk": false,
+      "amount": 1412
+    },
+    "label": 0
+  },
+  {
+    "features": {
+      "zscore": 0.764481108378873,
+      "noveltyRisk": false,
+      "timeAnomalyRisk": false,
+      "amount": 1524
+    },
+    "label": 0
+  },
+  {
+    "features": {
+      "zscore": 9.999999999999998,
+      "noveltyRisk": true,
+      "timeAnomalyRisk": false,
+      "amount": 4164.790577893667
+    },
+    "label": 1
+  },
+  {
+    "features": {
+      "zscore": 5.000000000000001,
+      "noveltyRisk": false,
+      "timeAnomalyRisk": false,
+      "amount": 2735.097991649537
+    },
+    "label": 1
+  },
+  {
+    "features": {
+      "zscore": 6.999999999999999,
+      "noveltyRisk": false,
+      "timeAnomalyRisk": false,
+      "amount": 3306.975026147189
+    },
+    "label": 1
+  },
+  {
+    "features": {
+      "zscore": -0.29844145158852997,
+      "noveltyRisk": false,
+      "timeAnomalyRisk": false,
+      "amount": 1526
+    },
+    "label": 0
+  },
+  {
+    "features": {
+      "zscore": -0.40266676046989214,
+      "noveltyRisk": false,
+      "timeAnomalyRisk": false,
+      "amount": 1490
+    },
+    "label": 0
+  },
+  {
+    "features": {
+      "zscore": 0.7264407524115316,
+      "noveltyRisk": false,
+      "timeAnomalyRisk": false,
+      "amount": 1880
+    },
+    "label": 0
+  },
+  {
+    "features": {
+      "zscore": -0.362134695904918,
+      "noveltyRisk": false,
+      "timeAnomalyRisk": false,
+      "amount": 1504
+    },
+    "label": 0
+  },
+  {
+    "features": {
+      "zscore": 0.6424814758126566,
+      "noveltyRisk": false,
+      "timeAnomalyRisk": false,
+      "amount": 1851
+    },
+    "label": 0
+  },
+  {
+    "features": {
+      "zscore": -0.5647950187297889,
+      "noveltyRisk": false,
+      "timeAnomalyRisk": false,
+      "amount": 1434
+    },
+    "label": 0
+  },
+  {
+    "features": {
+      "zscore": 0.8190854714171869,
+      "noveltyRisk": false,
+      "timeAnomalyRisk": false,
+      "amount": 1912
+    },
+    "label": 0
+  },
+  {
+    "features": {
+      "zscore": 0.5874736739030487,
+      "noveltyRisk": false,
+      "timeAnomalyRisk": false,
+      "amount": 1832
+    },
+    "label": 0
+  },
+  {
+    "features": {
+      "zscore": 0.13004037381262573,
+      "noveltyRisk": false,
+      "timeAnomalyRisk": false,
+      "amount": 1674
+    },
+    "label": 0
+  },
+  {
+    "features": {
+      "zscore": 0.15320155356403956,
+      "noveltyRisk": false,
+      "timeAnomalyRisk": false,
+      "amount": 1682
+    },
+    "label": 0
+  },
+  {
+    "features": {
+      "zscore": 1.456017914581067,
+      "noveltyRisk": false,
+      "timeAnomalyRisk": false,
+      "amount": 2132
+    },
+    "label": 0
+  },
+  {
+    "features": {
+      "zscore": -0.7993019637128539,
+      "noveltyRisk": false,
+      "timeAnomalyRisk": false,
+      "amount": 1353
+    },
+    "label": 0
+  },
+  {
+    "features": {
+      "zscore": 0.3384909915753501,
+      "noveltyRisk": false,
+      "timeAnomalyRisk": false,
+      "amount": 1746
+    },
+    "label": 0
+  },
+  {
+    "features": {
+      "zscore": -0.28975600918174976,
+      "noveltyRisk": false,
+      "timeAnomalyRisk": false,
+      "amount": 1529
+    },
+    "label": 0
+  },
+  {
+    "features": {
+      "zscore": -1.0540749409784058,
+      "noveltyRisk": false,
+      "timeAnomalyRisk": false,
+      "amount": 1265
+    },
+    "label": 0
+  },
+  {
+    "features": {
+      "zscore": -0.04945876926083138,
+      "noveltyRisk": false,
+      "timeAnomalyRisk": false,
+      "amount": 1612
+    },
+    "label": 0
+  },
+  {
+    "features": {
+      "zscore": 0.5064095447731003,
+      "noveltyRisk": false,
+      "timeAnomalyRisk": false,
+      "amount": 1804
+    },
+    "label": 0
+  },
+  {
+    "features": {
+      "zscore": 0.2805880421968156,
+      "noveltyRisk": false,
+      "timeAnomalyRisk": false,
+      "amount": 1726
+    },
+    "label": 0
+  },
+  {
+    "features": {
+      "zscore": -0.46636000478628015,
+      "noveltyRisk": false,
+      "timeAnomalyRisk": false,
+      "amount": 1468
+    },
+    "label": 0
+  },
+  {
+    "features": {
+      "zscore": -0.5068920693512543,
+      "noveltyRisk": false,
+      "timeAnomalyRisk": false,
+      "amount": 1454
+    },
+    "label": 0
+  },
+  {
+    "features": {
+      "zscore": -1.4333392594078072,
+      "noveltyRisk": false,
+      "timeAnomalyRisk": false,
+      "amount": 1134
+    },
+    "label": 0
+  },
+  {
+    "features": {
+      "zscore": -0.34765895856028434,
+      "noveltyRisk": false,
+      "timeAnomalyRisk": false,
+      "amount": 1509
+    },
+    "label": 0
+  },
+  {
+    "features": {
+      "zscore": -0.14789378320434013,
+      "noveltyRisk": false,
+      "timeAnomalyRisk": false,
+      "amount": 1578
+    },
+    "label": 0
+  },
+  {
+    "features": {
+      "zscore": -0.37082013831169813,
+      "noveltyRisk": false,
+      "timeAnomalyRisk": false,
+      "amount": 1501
+    },
+    "label": 0
+  },
+  {
+    "features": {
+      "zscore": 9.000000000000002,
+      "noveltyRisk": false,
+      "timeAnomalyRisk": false,
+      "amount": 4737.733271409347
+    },
+    "label": 1
+  },
+  {
+    "features": {
+      "zscore": 9.000000000000002,
+      "noveltyRisk": false,
+      "timeAnomalyRisk": false,
+      "amount": 4737.733271409347
+    },
+    "label": 1
+  },
+  {
+    "features": {
+      "zscore": 1.1616772476399113,
+      "noveltyRisk": false,
+      "timeAnomalyRisk": false,
+      "amount": 1263
+    },
+    "label": 0
+  },
+  {
+    "features": {
+      "zscore": -0.8442396419288902,
+      "noveltyRisk": false,
+      "timeAnomalyRisk": false,
+      "amount": 744
+    },
+    "label": 0
+  },
+  {
+    "features": {
+      "zscore": -0.013272144323317312,
+      "noveltyRisk": false,
+      "timeAnomalyRisk": false,
+      "amount": 959
+    },
+    "label": 0
+  },
+  {
+    "features": {
+      "zscore": 1.269896270583893,
+      "noveltyRisk": false,
+      "timeAnomalyRisk": false,
+      "amount": 1291
+    },
+    "label": 0
+  },
+  {
+    "features": {
+      "zscore": -0.5930169100946473,
+      "noveltyRisk": false,
+      "timeAnomalyRisk": false,
+      "amount": 809
+    },
+    "label": 0
+  },
+  {
+    "features": {
+      "zscore": 1.9385352337734936,
+      "noveltyRisk": false,
+      "timeAnomalyRisk": false,
+      "amount": 1464
+    },
+    "label": 0
+  },
+  {
+    "features": {
+      "zscore": 1.5868234092055533,
+      "noveltyRisk": false,
+      "timeAnomalyRisk": false,
+      "amount": 1373
+    },
+    "label": 0
+  },
+  {
+    "features": {
+      "zscore": 0.2611403781417789,
+      "noveltyRisk": false,
+      "timeAnomalyRisk": false,
+      "amount": 1030
+    },
+    "label": 0
+  },
+  {
+    "features": {
+      "zscore": -1.0220280367654313,
+      "noveltyRisk": false,
+      "timeAnomalyRisk": false,
+      "amount": 698
+    },
+    "label": 0
+  },
+  {
+    "features": {
+      "zscore": -0.39203872462725287,
+      "noveltyRisk": false,
+      "timeAnomalyRisk": false,
+      "amount": 861
+    },
+    "label": 0
+  },
+  {
+    "features": {
+      "zscore": -0.6819111075129178,
+      "noveltyRisk": false,
+      "timeAnomalyRisk": false,
+      "amount": 786
+    },
+    "label": 0
+  },
+  {
+    "features": {
+      "zscore": 1.8264512457243698,
+      "noveltyRisk": false,
+      "timeAnomalyRisk": false,
+      "amount": 1435
+    },
+    "label": 0
+  },
+  {
+    "features": {
+      "zscore": -0.7669403398260463,
+      "noveltyRisk": false,
+      "timeAnomalyRisk": false,
+      "amount": 764
+    },
+    "label": 0
+  },
+  {
+    "features": {
+      "zscore": 0.35003457556004947,
+      "noveltyRisk": false,
+      "timeAnomalyRisk": false,
+      "amount": 1053
+    },
+    "label": 0
+  },
+  {
+    "features": {
+      "zscore": 1.1114327012730627,
+      "noveltyRisk": false,
+      "timeAnomalyRisk": false,
+      "amount": 1250
+    },
+    "label": 0
+  },
+  {
+    "features": {
+      "zscore": -0.5968818751997894,
+      "noveltyRisk": false,
+      "timeAnomalyRisk": false,
+      "amount": 808
+    },
+    "label": 0
+  },
+  {
+    "features": {
+      "zscore": 0.5626076563428705,
+      "noveltyRisk": false,
+      "timeAnomalyRisk": false,
+      "amount": 1108
+    },
+    "label": 0
+  },
+  {
+    "features": {
+      "zscore": 0.7094763303382741,
+      "noveltyRisk": false,
+      "timeAnomalyRisk": false,
+      "amount": 1146
+    },
+    "label": 0
+  },
+  {
+    "features": {
+      "zscore": 8,
+      "noveltyRisk": true,
+      "timeAnomalyRisk": false,
+      "amount": 3032.31034726858
+    },
+    "label": 1
+  },
+  {
+    "features": {
+      "zscore": 7.000000000000001,
+      "noveltyRisk": false,
+      "timeAnomalyRisk": false,
+      "amount": 2773.5757991430264
+    },
+    "label": 1
+  },
+  {
+    "features": {
+      "zscore": 8,
+      "noveltyRisk": true,
+      "timeAnomalyRisk": false,
+      "amount": 3032.31034726858
+    },
+    "label": 1
+  },
+  {
+    "features": {
+      "zscore": 1.5627795786104117,
+      "noveltyRisk": false,
+      "timeAnomalyRisk": false,
+      "amount": 2864
+    },
+    "label": 0
+  },
+  {
+    "features": {
+      "zscore": -0.7325181185913551,
+      "noveltyRisk": false,
+      "timeAnomalyRisk": false,
+      "amount": 1294
+    },
+    "label": 0
+  },
+  {
+    "features": {
+      "zscore": 1.3537174316678304,
+      "noveltyRisk": false,
+      "timeAnomalyRisk": false,
+      "amount": 2721
+    },
+    "label": 0
+  },
+  {
+    "features": {
+      "zscore": -0.3860305044277763,
+      "noveltyRisk": false,
+      "timeAnomalyRisk": false,
+      "amount": 1531
+    },
+    "label": 0
+  },
+  {
+    "features": {
+      "zscore": -0.38018261220560623,
+      "noveltyRisk": false,
+      "timeAnomalyRisk": false,
+      "amount": 1535
+    },
+    "label": 0
+  },
+  {
+    "features": {
+      "zscore": 0.6051872272300567,
+      "noveltyRisk": false,
+      "timeAnomalyRisk": false,
+      "amount": 2209
+    },
+    "label": 0
+  },
+  {
+    "features": {
+      "zscore": -0.03808091720865499,
+      "noveltyRisk": false,
+      "timeAnomalyRisk": false,
+      "amount": 1769
+    },
+    "label": 0
+  },
+  {
+    "features": {
+      "zscore": 0.5072350325087074,
+      "noveltyRisk": false,
+      "timeAnomalyRisk": false,
+      "amount": 2142
+    },
+    "label": 0
+  },
+  {
+    "features": {
+      "zscore": -0.7924590138685987,
+      "noveltyRisk": false,
+      "timeAnomalyRisk": false,
+      "amount": 1253
+    },
+    "label": 0
+  },
+  {
+    "features": {
+      "zscore": -0.3290135552616178,
+      "noveltyRisk": false,
+      "timeAnomalyRisk": false,
+      "amount": 1570
+    },
+    "label": 0
+  },
+  {
+    "features": {
+      "zscore": -1.2749101221976324,
+      "noveltyRisk": false,
+      "timeAnomalyRisk": false,
+      "amount": 923
+    },
+    "label": 0
+  },
+  {
+    "features": {
+      "zscore": -2.1798714435784565,
+      "noveltyRisk": false,
+      "timeAnomalyRisk": false,
+      "amount": 304
+    },
+    "label": 0
+  },
+  {
+    "features": {
+      "zscore": -0.5234559716487738,
+      "noveltyRisk": false,
+      "timeAnomalyRisk": false,
+      "amount": 1437
+    },
+    "label": 0
+  },
+  {
+    "features": {
+      "zscore": 0.8303310777836058,
+      "noveltyRisk": false,
+      "timeAnomalyRisk": false,
+      "amount": 2363
+    },
+    "label": 0
+  },
+  {
+    "features": {
+      "zscore": -0.2369092527624386,
+      "noveltyRisk": false,
+      "timeAnomalyRisk": false,
+      "amount": 1633
+    },
+    "label": 0
+  },
+  {
+    "features": {
+      "zscore": -0.9488901308116491,
+      "noveltyRisk": false,
+      "timeAnomalyRisk": false,
+      "amount": 1146
+    },
+    "label": 0
+  },
+  {
+    "features": {
+      "zscore": -2.1330883058010954,
+      "noveltyRisk": false,
+      "timeAnomalyRisk": false,
+      "amount": 336
+    },
+    "label": 0
+  },
+  {
+    "features": {
+      "zscore": 0.2075305561224895,
+      "noveltyRisk": false,
+      "timeAnomalyRisk": false,
+      "amount": 1937
+    },
+    "label": 0
+  },
+  {
+    "features": {
+      "zscore": 1.1066439852811434,
+      "noveltyRisk": false,
+      "timeAnomalyRisk": false,
+      "amount": 2552
+    },
+    "label": 0
+  },
+  {
+    "features": {
+      "zscore": -0.4942165105379233,
+      "noveltyRisk": false,
+      "timeAnomalyRisk": false,
+      "amount": 1457
+    },
+    "label": 0
+  },
+  {
+    "features": {
+      "zscore": 0.19437279862260673,
+      "noveltyRisk": false,
+      "timeAnomalyRisk": false,
+      "amount": 1928
+    },
+    "label": 0
+  },
+  {
+    "features": {
+      "zscore": -0.4722869147047854,
+      "noveltyRisk": false,
+      "timeAnomalyRisk": false,
+      "amount": 1472
+    },
+    "label": 0
+  },
+  {
+    "features": {
+      "zscore": 1.333249808890235,
+      "noveltyRisk": false,
+      "timeAnomalyRisk": false,
+      "amount": 2707
+    },
+    "label": 0
+  },
+  {
+    "features": {
+      "zscore": 1.771841725552993,
+      "noveltyRisk": false,
+      "timeAnomalyRisk": false,
+      "amount": 3007
+    },
+    "label": 0
+  },
+  {
+    "features": {
+      "zscore": 0.0013923552909932307,
+      "noveltyRisk": false,
+      "timeAnomalyRisk": false,
+      "amount": 1796
+    },
+    "label": 0
+  },
+  {
+    "features": {
+      "zscore": 6.999999999999999,
+      "noveltyRisk": true,
+      "timeAnomalyRisk": false,
+      "amount": 6583.097558451156
+    },
+    "label": 1
+  },
+  {
+    "features": {
+      "zscore": 9,
+      "noveltyRisk": true,
+      "timeAnomalyRisk": false,
+      "amount": 7951.111826852168
+    },
+    "label": 1
+  },
+  {
+    "features": {
+      "zscore": 5.000000000000001,
+      "noveltyRisk": false,
+      "timeAnomalyRisk": false,
+      "amount": 5215.083290050146
+    },
+    "label": 1
+  }
+]
