@@ -1,5 +1,6 @@
 import fs from "fs";
 import * as tf from "@tensorflow/tfjs";
+import { normalFunction } from "../utils/normalize.js";
 const FRAUD_THRESHOLD = 0.3;
 const rawData = fs.readFileSync("trainingData.json","utf-8");
 const rawdataset = JSON.parse(rawData);
@@ -16,10 +17,6 @@ const zscore = dataset.map(example=>example.features.zscore);
 
 const minZscore = Math.min(...zscore);
 const maxZscore = Math.max(...zscore);
-
-function normalFunction(value,min,max){
-    return ((value -min)/ (max-min)); 
-}
 
 const normalizedDataset = dataset.map(example => {
   const normalizedZscore = normalFunction(example.features.zscore, minZscore, maxZscore);
@@ -120,14 +117,21 @@ async function trainModel() {
   console.log(`Recall: ${recall.toFixed(4)}`);
   console.log(`F1 Score: ${f1.toFixed(4)}`);
 
+  const normalizationStats = {
+    minZscore: minZscore,
+    maxZscore: maxZscore,
+    minAmount: minAmount,
+    maxAmount: maxAmount,
+  };
+
+
   const saveResult = await model.save(tf.io.withSaveHandler(async (artifacts) => {
   fs.writeFileSync("modelTopology.json", JSON.stringify(artifacts.modelTopology));
   fs.writeFileSync("modelWeights.bin", Buffer.from(artifacts.weightData));
   fs.writeFileSync("modelWeightSpecs.json", JSON.stringify(artifacts.weightSpecs));
+  fs.writeFileSync("normalizationStats.json", JSON.stringify(normalizationStats, null, 2));
   return { modelArtifactsInfo: { dateSaved: new Date(), modelTopologyType: "JSON" } };
 }));
-
-
 
 }
 trainModel();

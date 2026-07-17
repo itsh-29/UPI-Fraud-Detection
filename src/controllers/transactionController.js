@@ -1,3 +1,5 @@
+import fs from "fs";
+import * as tf from "@tensorflow/tfjs";
 import { User } from "../models/User.js";
 import { ReceiverRelationship } from "../models/ReceiverRelationship.js";
 import {Transaction} from "../models/Transaction.js";
@@ -11,8 +13,13 @@ import { checkTimeAnomalyRisk } from "../services/anomalyService.js";
 import { getTimeBucket } from "../utils/timeBucket.js";
 
 import{updateUserStats} from "../services/statsService.js"
+import { normalFunction } from "../utils/normalize.js";
+
+
 
 async function createTransaction(req,res){
+    const model = req.app.locals.model;
+    const normalizationStats =req.app.locals.normalizationStats;
     const{senderId,receiverId,amount,timestamp,note}=req.body;
     
     const sender = await User.findById(senderId);
@@ -35,6 +42,15 @@ async function createTransaction(req,res){
     const noveltyRisk = checkNoveltyRisk(amount,sender.avgTransactionAmount,relationshipExists);
     const timeAnomalyRisk = checkTimeAnomalyRisk(bucketPercentage,hasHistory);
     
+    const normalizedZscore = normalFunction(zscore,normalizationStats.minZscore,normalizationStats.maxZscore);
+    const normalizedAmount = normalFunction(amount,normalizationStats.minAmount,normalizationStats.maxAmount);
+    const noveltyAsNumber = +noveltyRisk;
+    const timeAnomalyAsNumber = +timeAnomalyRisk;
+
+    const inputTensor = tf.tensor2d([[normalizedZscore,noveltyAsNumber,timeAnomalyAsNumber,normalizedAmount]]);
+    const modelPrediction = model.predict(inputTensor);
+    const modelFraudProbability = modelPrediction.dataSync()[0];   
+
     const anomalyScore =calculateAnomalyScore(zscore,noveltyRisk,timeAnomalyRisk)
 
     const transaction = await Transaction.create({senderId,receiverId,amount,timestamp,note});
@@ -68,7 +84,8 @@ async function createTransaction(req,res){
 
     res.status(201).json({
         transaction: transaction,
-        anomalyScore: anomalyScore
+        anomalyScore: anomalyScore,
+        modelFraudProbability:modelFraudProbability,
     });
 }
 
