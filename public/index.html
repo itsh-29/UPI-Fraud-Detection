@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Signal — UPI Fraud Detection Engine</title>
+<link rel="preconnect" href="https://fonts.googleapis.com" />
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&family=Inter:wght@400;500;600&family=JetBrains+Mono:wght@400;500;600&display=swap" rel="stylesheet" />
+<link rel="stylesheet" href="/css/style.css" />
+</head>
+<body class="app">
+
+  <div class="grain"></div>
+
+  <header class="topbar">
+    <div class="brand">
+      <span class="brand-mark" aria-hidden="true">◈</span>
+      <div class="brand-text">
+        <p class="eyebrow">UPI ANOMALY DETECTION ENGINE</p>
+        <h1>Signal</h1>
+      </div>
+    </div>
+    <div class="status" id="statusPill">
+      <span class="status-dot" id="statusDot"></span>
+      <span id="statusLabel">Connecting</span>
+    </div>
+  </header>
+
+  <section class="waveform-strip">
+    <div class="waveform-head">
+      <div>
+        <p class="waveform-caption">Risk signal · rule engine · last 30 transactions</p>
+        <p class="waveform-value"><span id="latestRisk">—</span><span class="waveform-unit">/100</span></p>
+      </div>
+      <div class="waveform-legend">
+        <span class="legend-item"><i class="dot dot-low"></i>Low</span>
+        <span class="legend-item"><i class="dot dot-med"></i>Medium</span>
+        <span class="legend-item"><i class="dot dot-high"></i>Flagged</span>
+      </div>
+    </div>
+    <svg id="waveform" viewBox="0 0 1000 140" preserveAspectRatio="none" class="waveform-svg">
+      <line x1="0" y1="35" x2="1000" y2="35" class="grid-line" />
+      <line x1="0" y1="70" x2="1000" y2="70" class="grid-line" />
+      <line x1="0" y1="105" x2="1000" y2="105" class="grid-line" />
+      <polyline id="waveLine" points="" class="wave-line" />
+      <circle id="waveMarker" r="4.5" class="wave-marker" cx="-10" cy="-10" />
+    </svg>
+  </section>
+
+  <section class="stats-row">
+    <div class="stat-card">
+      <p class="stat-value" id="statTotal">0</p>
+      <p class="stat-label">Transactions Scanned</p>
+    </div>
+    <div class="stat-card stat-flagged">
+      <p class="stat-value" id="statFlagged">0</p>
+      <p class="stat-label">Flagged</p>
+    </div>
+    <div class="stat-card">
+      <p class="stat-value" id="statAvgRisk">0</p>
+      <p class="stat-label">Avg Risk Score</p>
+    </div>
+    <div class="stat-card">
+      <p class="stat-value" id="statModel">0%</p>
+      <p class="stat-label">Avg Model Confidence</p>
+    </div>
+  </section>
+
+  <main class="main-grid">
+
+    <section class="panel feed-panel">
+      <div class="panel-header">
+        <h2>Transaction Feed</h2>
+        <button id="refreshBtn" class="ghost-btn">
+          <span>Refresh</span>
+        </button>
+      </div>
+      <div class="feed-columns" aria-hidden="true">
+        <span>Time</span>
+        <span>Route</span>
+        <span>Amount</span>
+        <span>Risk</span>
+        <span>Model</span>
+      </div>
+      <div class="feed-list" id="feedList">
+        <div class="feed-empty" id="feedEmpty">
+          <p>No transactions yet.</p>
+          <p class="feed-empty-sub">Run a simulation on the right to see the engine score it live.</p>
+        </div>
+      </div>
+    </section>
+
+    <aside class="side-col">
+
+      <section class="panel simulate-panel">
+        <h2>Simulate Transaction</h2>
+        <p class="panel-caption">Sends a real request to <code>/transactions</code> and scores it live.</p>
+        <form id="simulateForm">
+          <label class="field">
+            <span>Sender</span>
+            <select id="senderSelect" required></select>
+          </label>
+          <label class="field">
+            <span>Receiver</span>
+            <select id="receiverSelect" required></select>
+          </label>
+          <label class="field">
+            <span>Amount (₹)</span>
+            <input type="number" id="amountInput" min="1" value="500" required />
+          </label>
+          <label class="field">
+            <span>Time</span>
+            <input type="datetime-local" id="timeInput" required />
+          </label>
+          <button type="submit" class="primary-btn" id="simulateBtn">
+            <span>Run Detection</span>
+          </button>
+        </form>
+        <div id="simulateResult" class="simulate-result"></div>
+      </section>
+
+      <section class="panel distribution-panel">
+        <h2>Risk Distribution</h2>
+        <div class="dist-bars" id="distBars">
+          <div class="dist-row">
+            <span class="dist-label">Low</span>
+            <div class="dist-track"><div class="dist-fill dist-low" id="distLowBar" style="width:0%"></div></div>
+            <span class="dist-count" id="distLowCount">0</span>
+          </div>
+          <div class="dist-row">
+            <span class="dist-label">Medium</span>
+            <div class="dist-track"><div class="dist-fill dist-med" id="distMedBar" style="width:0%"></div></div>
+            <span class="dist-count" id="distMedCount">0</span>
+          </div>
+          <div class="dist-row">
+            <span class="dist-label">Flagged</span>
+            <div class="dist-track"><div class="dist-fill dist-high" id="distHighBar" style="width:0%"></div></div>
+            <span class="dist-count" id="distHighCount">0</span>
+          </div>
+        </div>
+      </section>
+
+    </aside>
+  </main>
+
+  <footer class="footer">
+    <p>Rule-based signals (z-score · novelty · time anomaly) scored alongside a trained neural net, live on every transaction.</p>
+  </footer>
+
+  <script src="/js/app.js"></script>
+</body>
+</html>

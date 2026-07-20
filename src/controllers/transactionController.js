@@ -53,7 +53,15 @@ async function createTransaction(req,res){
 
     const anomalyScore =calculateAnomalyScore(zscore,noveltyRisk,timeAnomalyRisk)
 
-    const transaction = await Transaction.create({senderId,receiverId,amount,timestamp,note});
+    const transaction = await Transaction.create({
+        senderId,
+        receiverId,
+        amount,
+        timestamp,
+        note,
+        anomalyScore: anomalyScore,
+        modelFraudProbability: modelFraudProbability,
+    });
 
     const stats = updateUserStats(sender.avgTransactionAmount,sender.transactionCount,sender.m2,amount);
 

@@ -17,5 +17,11 @@ async function getUser(req,res){
 
 }
 
+async function getAllUsers(req, res) {
+  const users = await User.find({});
+  res.status(200).json(users);
+}
 
-export{createUser,getUser};
+
+export{createUser,getUser,getAllUsers};
+
