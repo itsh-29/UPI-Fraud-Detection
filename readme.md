@@ -396,7 +396,7 @@ This project is licensed under the MIT License.
 **Ishan Meduri**
 
 - GitHub: https://github.com/itsh-29
-- LinkedIn: *(Add your LinkedIn profile here)*
+- LinkedIn: https://www.linkedin.com/in/ishanmeduri
 
 ---
 
