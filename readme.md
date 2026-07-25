@@ -1,107 +1,407 @@
-# Signal — UPI Payment Anomaly Detection Engine
+# 🚨 Signal - Real-Time UPI Fraud Detection Engine
 
-A real-time fraud detection system for UPI-style transactions, combining a hand-built statistical rules engine with a trained neural network. Every transaction is scored live by both systems the moment it's created.
+<div align="center">
 
-**Live demo:** https://upi-fraud-detection-5wja.onrender.com/
+### AI-Powered Fraud Detection for UPI Transactions
 
-> Note: hosted on Render's free tier — the first request after a period of inactivity may take a few seconds to wake the server.
+A real-time fraud detection system that combines statistical anomaly detection with a TensorFlow.js neural network to identify suspicious UPI-style transactions based on user behaviour rather than static thresholds.
+
+**🌐 Live Demo:** https://upi-fraud-detection-5wja.onrender.com/
+
+> **Note:** Hosted on Render's free tier. The first request after inactivity may take a few seconds while the server wakes up.
+
+![Node.js](https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=nodedotjs&logoColor=white)
+![Express](https://img.shields.io/badge/Express.js-000000?style=for-the-badge&logo=express&logoColor=white)
+![MongoDB](https://img.shields.io/badge/MongoDB-47A248?style=for-the-badge&logo=mongodb&logoColor=white)
+![TensorFlow](https://img.shields.io/badge/TensorFlow.js-FF6F00?style=for-the-badge&logo=tensorflow&logoColor=white)
+![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
+![Render](https://img.shields.io/badge/Render-46E3B7?style=for-the-badge&logo=render&logoColor=black)
+
+</div>
 
 ---
 
-## What it does
+# 📖 Overview
 
-Most simple fraud-detection demos flag transactions against a fixed threshold (e.g. "amount > ₹50,000"). Signal doesn't — every signal is computed **relative to that specific user's own transaction history**, not a global rule. A ₹50,000 transaction is unremarkable for a business account that transacts in that range daily, and highly anomalous for someone who has never sent more than ₹2,000.
+Signal is a real-time fraud detection engine designed for UPI-style digital payments.
 
-Each incoming transaction is scored on three independent statistical signals, then separately scored again by a trained neural network trained on the same underlying features:
+Unlike traditional fraud detection systems that rely on fixed thresholds (e.g. flag every transaction above ₹50,000), Signal builds a behavioural profile for every individual user and evaluates each transaction relative to that user's historical activity.
 
-- **Amount anomaly (z-score)** — how many standard deviations this amount is from the sender's own historical average, calculated incrementally via **Welford's online algorithm** so the running mean/variance update in O(1) per transaction without ever re-scanning transaction history.
-- **Receiver novelty** — flags large payments to a receiver the sender has no prior relationship with.
-- **Time-of-day anomaly** — flags transactions in an hour-of-day bucket the sender rarely transacts in, using per-user bucket counts rather than naive clock-time averaging (averaging raw hours breaks at midnight — 11pm and 1am are two hours apart but average to noon).
+Every transaction is simultaneously analysed by:
 
-A combined rule-based risk score (0–100) and a separately-trained model probability are both surfaced on every transaction.
+- 📊 Statistical Rule Engine
+- 🤖 TensorFlow.js Neural Network
+
+Both scores are returned instantly to provide a comprehensive fraud assessment.
 
 ---
 
-## Architecture
+# ✨ Features
+
+### 📈 Behaviour-Based Fraud Detection
+
+Detects anomalies relative to each user's historical spending pattern rather than relying on fixed global limits.
+
+### ⚡ Real-Time Transaction Scoring
+
+Every transaction is analysed immediately after creation with both statistical and machine learning models.
+
+### 🧠 Hybrid Fraud Detection
+
+Combines:
+
+- Rule-based anomaly detection
+- Neural network probability prediction
+
+for improved decision making.
+
+### 📊 Statistical Risk Analysis
+
+Calculates:
+
+- Amount Z-Score
+- Receiver Novelty
+- Time-of-Day Behaviour
+
+using user-specific historical data.
+
+### 🤖 Machine Learning Prediction
+
+Uses a TensorFlow.js feed-forward neural network trained on synthetically generated transaction data.
+
+### 🌐 Interactive Dashboard
+
+Provides:
+
+- User management
+- Transaction history
+- Fraud probability
+- Rule engine score
+- Real-time analytics
+
+---
+
+# 🏗 System Architecture
 
 ```
-┌─────────────┐      ┌──────────────────────┐      ┌─────────────┐
-│  Dashboard  │◄────►│   Express API         │◄────►│  MongoDB    │
-│ (vanilla JS)│      │  - Rule engine        │      │  Atlas      │
-└─────────────┘      │  - TensorFlow.js model│      └─────────────┘
-                      └──────────────────────┘
+                   ┌────────────────────────┐
+                   │   Web Dashboard        │
+                   │ HTML • CSS • JS        │
+                   └──────────┬─────────────┘
+                              │
+                              ▼
+                 ┌──────────────────────────┐
+                 │     Express API          │
+                 │                          │
+                 │ • Rule Engine            │
+                 │ • TensorFlow.js Model    │
+                 │ • REST APIs              │
+                 └──────────┬───────────────┘
+                            │
+                            ▼
+                  ┌─────────────────────────┐
+                  │     MongoDB Atlas       │
+                  └─────────────────────────┘
 ```
 
-- **Backend**: Node.js / Express / Mongoose
-- **Database**: MongoDB Atlas
-- **ML**: TensorFlow.js (pure-JS build), trained offline on synthetically generated + labeled transaction data, loaded into the live server at startup
-- **Frontend**: Static HTML/CSS/JS dashboard served directly by Express (`express.static`) — no build step, no separate frontend deployment
-- **Deployment**: Render (single web service), kept warm via an external cron ping
+---
+
+# 🧠 Fraud Detection Engine
+
+Every transaction generates three independent anomaly signals.
+
+### 💰 Amount Anomaly
+
+Calculates how many standard deviations the transaction amount is from the sender's historical average.
+
+Uses **Welford's Online Algorithm** for O(1) running mean and variance updates.
 
 ---
 
-## The ML pipeline
+### 👤 Receiver Novelty
 
-The model wasn't trained on real fraud-labeled data (none exists for a portfolio project) — instead:
-
-1. A seed script generates realistic per-user transaction histories using Gaussian-distributed amounts around a random per-user mean.
-2. A second generator deliberately injects labeled "fraud-pattern" transactions — combining an extreme amount (5–10 standard deviations above the sender's mean), a forced brand-new receiver, and a forced late-night timestamp — mirroring real fraud typologies (large payment + unfamiliar recipient + unusual hour).
-3. Both sets are run through the *same* feature-computation functions the live API uses (z-score, novelty flag, time-bucket percentage), then normalized (min-max scaling) and used to train a small feed-forward network (`Dense(8, relu) → Dense(4, relu) → Dense(1, sigmoid)`).
-4. Evaluated with **precision, recall, and F1** on a held-out test split — not accuracy alone, since the dataset is intentionally imbalanced (~85% normal transactions) and accuracy alone is misleading under class imbalance. The classification threshold is a named, tunable constant, since fraud detection generally favors recall (catching more fraud) over precision (fewer false alarms).
+Flags unusually large transfers made to recipients the sender has never interacted with before.
 
 ---
 
-## API
+### 🕒 Time-of-Day Behaviour
 
-| Method | Route              | Description                                      |
-|--------|---------------------|---------------------------------------------------|
-| POST   | `/users`            | Create a user                                     |
-| GET    | `/users`            | List all users                                     |
-| GET    | `/users/:id`        | Get a single user's current stats                  |
-| POST   | `/transactions`     | Create + score a transaction (rule engine + model) |
-| GET    | `/transactions`     | List all transactions                              |
+Tracks how frequently users transact during different hours of the day.
+
+Instead of averaging timestamps (which fails around midnight), Signal stores hourly frequency buckets for each user.
 
 ---
 
-## Running locally
+### 📊 Hybrid Risk Score
+
+Every transaction receives:
+
+- Rule-Based Risk Score (0–100)
+- Machine Learning Fraud Probability (0–1)
+
+allowing both deterministic and predictive fraud analysis.
+
+---
+
+# 🤖 Machine Learning Pipeline
+
+Since publicly available labelled UPI fraud datasets are not available, Signal trains its model using synthetically generated data.
+
+### Pipeline
+
+1. Generate realistic transaction histories.
+2. Inject labelled fraudulent transactions.
+3. Compute production-level fraud features.
+4. Normalize features.
+5. Train TensorFlow.js Neural Network.
+6. Export trained model.
+7. Load model into Express server.
+
+### Neural Network Architecture
+
+```
+Input Features (3)
+
+↓
+
+Dense (8, ReLU)
+
+↓
+
+Dense (4, ReLU)
+
+↓
+
+Dense (1, Sigmoid)
+```
+
+### Evaluation Metrics
+
+- Precision
+- Recall
+- F1 Score
+
+instead of relying solely on accuracy, making the evaluation more appropriate for imbalanced fraud datasets.
+
+---
+
+# 🔌 REST API
+
+| Method | Endpoint | Description |
+|----------|------------------|--------------------------------|
+| POST | `/users` | Create a new user |
+| GET | `/users` | Retrieve all users |
+| GET | `/users/:id` | Retrieve user statistics |
+| POST | `/transactions` | Create and score a transaction |
+| GET | `/transactions` | Retrieve all transactions |
+
+---
+
+# 🛠 Tech Stack
+
+## Backend
+
+- Node.js
+- Express.js
+- MongoDB Atlas
+- Mongoose
+
+## Machine Learning
+
+- TensorFlow.js
+- Neural Networks
+
+## Frontend
+
+- HTML5
+- CSS3
+- JavaScript
+
+## Deployment
+
+- Render
+
+---
+
+# 📂 Project Structure
+
+```
+Signal
+│
+├── src/
+│   ├── models/
+│   ├── routes/
+│   ├── controllers/
+│   ├── services/
+│   ├── scripts/
+│   ├── ml/
+│   └── utils/
+│
+├── public/
+│
+├── models/
+│
+├── app.js
+├── package.json
+└── README.md
+```
+
+---
+
+# 🚀 Getting Started
+
+## Clone Repository
 
 ```bash
 git clone https://github.com/itsh-29/UPI-Fraud-Detection.git
+```
+
+```bash
 cd UPI-Fraud-Detection
+```
+
+---
+
+## Install Dependencies
+
+```bash
 npm install
 ```
 
-Create a `.env` file:
-```
+---
+
+## Configure Environment Variables
+
+Create a `.env` file.
+
+```env
 MONGO_URI=your_mongodb_connection_string
 ```
 
-Start the server:
+---
+
+## Start Development Server
+
 ```bash
 npm run dev
 ```
 
-Visit `http://localhost:5000` for the dashboard.
+The application runs on:
 
-**Optional — generate demo data:**
+```
+http://localhost:5000
+```
+
+---
+
+## Generate Demo Data
+
 ```bash
 node src/scripts/runSeed.js
 ```
 
-**Optional — retrain the model:**
+---
+
+## Retrain the Neural Network
+
 ```bash
 node src/scripts/generateTrainingData.js
+
 node src/scripts/trainModel.js
 ```
 
 ---
 
-## Tech stack
+# 📸 Screenshots
 
-Node.js · Express · MongoDB / Mongoose · TensorFlow.js · Vanilla JS/HTML/CSS · Render
+> Add screenshots of your application here.
+
+Example:
+
+```
+Dashboard
+
+Users
+
+Transaction Monitoring
+
+Fraud Detection
+
+Analytics
+
+Mobile View
+```
 
 ---
 
-## Author
+# 📦 Packages Used
 
-Ishan Meduri — [GitHub](https://github.com/itsh-29)
+- express
+- mongoose
+- dotenv
+- tensorflow.js
+- cors
+- nodemon
+
+---
+
+# 💡 Future Improvements
+
+- 💳 Live Payment Gateway Integration
+- 📊 Fraud Analytics Dashboard
+- 📈 Model Performance Monitoring
+- ⚡ Kafka Event Streaming
+- 🐳 Docker Deployment
+- ☁️ Kubernetes Support
+- 🔔 Email & SMS Fraud Alerts
+- 📱 Mobile Application
+- 🌍 Multi-Currency Support
+- 🔍 Isolation Forest & XGBoost Comparison
+
+---
+
+# 📚 Learning Outcomes
+
+This project helped me gain hands-on experience with:
+
+- Machine Learning Integration in Web Applications
+- Behaviour-Based Fraud Detection
+- Online Statistical Algorithms
+- TensorFlow.js Model Training
+- Feature Engineering
+- Synthetic Dataset Generation
+- REST API Development
+- MongoDB Data Modeling
+- Real-Time Risk Analysis
+- Production Deployment
+
+---
+
+# 🤝 Contributing
+
+Contributions, feature requests, and suggestions are welcome!
+
+Feel free to fork the repository and submit a pull request.
+
+---
+
+# 📄 License
+
+This project is licensed under the MIT License.
+
+---
+
+# 👨‍💻 Author
+
+**Ishan Meduri**
+
+- GitHub: https://github.com/itsh-29
+- LinkedIn: *(Add your LinkedIn profile here)*
+
+---
+
+<div align="center">
+
+⭐ If you found this project interesting, consider giving it a star!
+
+</div>
